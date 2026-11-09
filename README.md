@@ -5,12 +5,15 @@ This repository is the study package for the preprint
 > Okley, W. (2026): *A moisture-weighted typical-month selection for environmental exposure screening: design and
 > evaluation of CEY20 at 14 locations.* Technical Research / Preprint – Not Peer Reviewed. EarthArXiv. [DOI pending]
 
+Archived on Zenodo: version 1.0.0, https://doi.org/10.5281/zenodo.24091411 (all versions:
+https://doi.org/10.5281/zenodo.24091410).
+
 It contains the analysis code, the product code for month selection and month-interface smoothing, the protocol,
 specifications, freeze records, pins, amendments and all result tables of the evaluation.
 
-> **Status: in preparation, not yet released.** The evaluation of the released product version 2 (amendment V2) was
-> run on 2026-11-09; its code, results and figures are included (`study/12-results-v2/`). Independent review of the
-> results and manuscript is pending.
+> **Status: released as v1.0.0 (2026-11-09).** The evaluation of the released product version 2 (amendment V2) is
+> included (`study/12-results-v2/`). The manuscript review (Codex S7) and the reproduction record (S8, executed by
+> the implementing session, independent rerun pending) are kept with the manuscript.
 
 ## What CEY20 is
 
