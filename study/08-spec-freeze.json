@@ -1,0 +1,10 @@
+{
+  "spec": "08-external-comparison-spec.md",
+  "revision": "r3",
+  "sha256_lf": "12f488419950d7589292df81524d938071fbda26e3f8e1b95bb74a0a92ed8e6a",
+  "commit": "f9033e4b0c67dbeb2b99be0208e76a61f2568928",
+  "frozen_utc": "2026-11-07T06:31:33Z",
+  "operator_approval": "2026-11-07: stage A (NOAA ISD) approved; stage B (PVGIS + NSRDB) approved after stage A, NSRDB key to be provided by the operator",
+  "codex": ["auth003-extspec-codex-7b53770b657f", "auth003-extspec-recheck-codex-69e216f76738"],
+  "note": "Frozen before any download. Product choices for stage B are resolved by discovery and frozen as an amendment before time-series retrieval (spec section 4)."
+}

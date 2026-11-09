@@ -1,0 +1,16 @@
+{
+  "label": "supplementary to D4 (Codex R5); descriptive, no null model",
+  "d4s_inner_above_ref_p99": {
+    "temperature_c": 101,
+    "dewpoint_c": 95,
+    "rh_pct": 84
+  },
+  "d4s_inner_checked_per_variable": 154,
+  "d4s_wrap_above_ref_p99": {
+    "temperature_c": 9,
+    "dewpoint_c": 10,
+    "rh_pct": 6
+  },
+  "ref_n_min": 589,
+  "ref_n_max": 620
+}

@@ -1,0 +1,17 @@
+PASS stations.csv byte-identical
+PASS monthly.csv byte-identical
+PASS decomposition.csv byte-identical
+PASS conventions.csv byte-identical
+PASS annual row count 609 / 609
+PASS annual.csv: values identical to run1, labels equal reconstructed order, run1 candidate == run2 value
+PASS C1_cey20 monthly summary equals run1
+PASS C1_cey20 annual summary recomputed from annual.csv (40 stations)
+PASS C2_full monthly summary equals run1
+PASS C2_full annual summary recomputed from annual.csv (40 stations)
+PASS C2_matched monthly summary equals run1
+PASS C2_matched annual summary recomputed from annual.csv (40 stations)
+PASS C3_pvgis monthly summary equals run1
+PASS C3_pvgis annual summary recomputed from annual.csv (41 stations)
+PASS C4_nsrdb monthly summary equals run1
+PASS C4_nsrdb annual summary recomputed from annual.csv (41 stations)
+ACCEPT

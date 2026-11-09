@@ -1,0 +1,98 @@
+[
+ {
+  "path": "code/backend/scripts/build_global_cey20_landpoint_dataset.py",
+  "source_commit": "00efaf6",
+  "source_path": "backend/scripts/build_global_cey20_landpoint_dataset.py",
+  "sha256_lf": "14a116dfc32613733b66cfce033ce565649afbbef365724239152c336377be40"
+ },
+ {
+  "path": "code/backend/scripts/smooth_cey20_month_interfaces.py",
+  "source_commit": "388cfdb4",
+  "source_path": "backend/scripts/smooth_cey20_month_interfaces.py",
+  "sha256_lf": "0a7633f0d10bbf5650f95486d2d2076be167841cadea5814e9f72d0bb76cfba8"
+ },
+ {
+  "path": "code/backend/scripts/research/auth003_s4ext_compare.py",
+  "source_commit": "5369f2e4",
+  "source_path": "backend/scripts/research/auth003_s4ext_compare.py",
+  "sha256_lf": "9060971d38db0ffc9478a99c8d7bba33589df70ace8a977fc1d9e808b5c84f81"
+ },
+ {
+  "path": "code/backend/scripts/research/__init__.py",
+  "source_commit": "073d2b8e",
+  "source_path": "backend/scripts/research/__init__.py",
+  "sha256_lf": "448d42ee39a4985e5d9d9de07b7297e86d2ab1942f544cd773686e8a817e72b8"
+ },
+ {
+  "path": "code/backend/scripts/research/auth003_study.py",
+  "source_commit": "073d2b8e",
+  "source_path": "backend/scripts/research/auth003_study.py",
+  "sha256_lf": "18fc798e24fa5c2d19f457dc3f9c6ec091be80f1d0de0c4cfe78f60b27ae6092"
+ },
+ {
+  "path": "code/backend/scripts/research/auth003_s3.py",
+  "source_commit": "073d2b8e",
+  "source_path": "backend/scripts/research/auth003_s3.py",
+  "sha256_lf": "d387ab473e866ff3b6cf4f28ca43437de63c1a50d79cacb773c9514127ce5781"
+ },
+ {
+  "path": "code/backend/scripts/research/auth003_s3_hourly.py",
+  "source_commit": "073d2b8e",
+  "source_path": "backend/scripts/research/auth003_s3_hourly.py",
+  "sha256_lf": "de92355e61890d2abcc3d6bfab026cc5983d8e4c8737a4c4202ac7900eed32c6"
+ },
+ {
+  "path": "code/backend/scripts/research/auth003_s3_d4s.py",
+  "source_commit": "073d2b8e",
+  "source_path": "backend/scripts/research/auth003_s3_d4s.py",
+  "sha256_lf": "d7d349b6228508b04686027401584b53ea8bdd5fdca09bbc1fcb73b6ae1e3c52"
+ },
+ {
+  "path": "code/backend/scripts/research/auth003_s4_fs.py",
+  "source_commit": "073d2b8e",
+  "source_path": "backend/scripts/research/auth003_s4_fs.py",
+  "sha256_lf": "d8210af6dfb210fe367457f41ac0821f7c734cc109cce64f16fe5881408fd5a4"
+ },
+ {
+  "path": "code/backend/scripts/research/auth003_s5_applications.py",
+  "source_commit": "073d2b8e",
+  "source_path": "backend/scripts/research/auth003_s5_applications.py",
+  "sha256_lf": "e74310ed6ea0a73b8e088744748179b319b0c52041a6effe52644eb9f37b6ebd"
+ },
+ {
+  "path": "code/backend/tests/test_auth003_study.py",
+  "source_commit": "073d2b8e",
+  "source_path": "backend/tests/test_auth003_study.py",
+  "sha256_lf": "d44a2f9c4e84bf0efe73c04acf2d30dd6808ac9f2e3c1b48261fe44d53846b17"
+ },
+ {
+  "path": "code/backend/tests/test_auth003_s3.py",
+  "source_commit": "073d2b8e",
+  "source_path": "backend/tests/test_auth003_s3.py",
+  "sha256_lf": "58285aa1e51691bb5269dd3f37db9238edde7c105563bd0f05733d0d626845fe"
+ },
+ {
+  "path": "code/backend/tests/test_auth003_s3_hourly.py",
+  "source_commit": "073d2b8e",
+  "source_path": "backend/tests/test_auth003_s3_hourly.py",
+  "sha256_lf": "847a23cfb5b5a441e42953d12693f202fe3c43753194e68b01b57d5c8f910466"
+ },
+ {
+  "path": "code/backend/tests/test_auth003_s3_d4s.py",
+  "source_commit": "073d2b8e",
+  "source_path": "backend/tests/test_auth003_s3_d4s.py",
+  "sha256_lf": "857e9c0ef6647987557c2e900615a3190c78b4d7b9363bfc1bbbcd4cd4618d3f"
+ },
+ {
+  "path": "code/backend/tests/test_auth003_s4_fs.py",
+  "source_commit": "073d2b8e",
+  "source_path": "backend/tests/test_auth003_s4_fs.py",
+  "sha256_lf": "9b443bdc43164097f432a4c60f00350beb253241fd3f717fd90b427152fecaf9"
+ },
+ {
+  "path": "code/backend/tests/test_auth003_s5_applications.py",
+  "source_commit": "073d2b8e",
+  "source_path": "backend/tests/test_auth003_s5_applications.py",
+  "sha256_lf": "71dca771a9947f4923ee852d857904eb9d3388a8eacb8f53516f098301dd92a1"
+ }
+]

@@ -1,0 +1,205 @@
+{
+  "CEY20": {
+    "target1_annual": {
+      "checked": 42,
+      "failed": 9
+    },
+    "target2_monthly_t": {
+      "checked": 168,
+      "failed": 60
+    },
+    "target2_monthly_rh": {
+      "checked": 168,
+      "failed": 14
+    },
+    "d1_rank_closest_hellinger": {
+      "Singapore": 2,
+      "Mumbai": 1,
+      "Dubai": 1,
+      "Houston": 1,
+      "Frankfurt": 7,
+      "London": 1,
+      "Seattle": 1,
+      "San Francisco": 3,
+      "Helsinki": 1,
+      "Fairbanks": 1,
+      "Chicago": 1,
+      "Phoenix": 4,
+      "Denver": 2,
+      "Quito": 1
+    },
+    "d4_inner_above_ref_p99": {
+      "temperature_c": 68,
+      "dewpoint_c": 85,
+      "rh_pct": 55
+    },
+    "d4_wrap_above_ref_p99": {
+      "temperature_c": 7,
+      "dewpoint_c": 11,
+      "rh_pct": 4
+    },
+    "d4s_inner_above_ref_p99": {
+      "temperature_c": 101,
+      "dewpoint_c": 95,
+      "rh_pct": 84
+    },
+    "d4s_wrap_above_ref_p99": {
+      "temperature_c": 9,
+      "dewpoint_c": 10,
+      "rh_pct": 6
+    },
+    "d5": {
+      "baseline": {
+        "point_months_changed": 0,
+        "target1_failed": 9
+      },
+      "local_solar_day": {
+        "point_months_changed": 4,
+        "target1_failed": 9
+      },
+      "humidity_mixed_ice": {
+        "point_months_changed": 9,
+        "target1_failed": 8
+      }
+    }
+  },
+  "FS-A": {
+    "target1_annual": {
+      "checked": 42,
+      "failed": 13
+    },
+    "target2_monthly_t": {
+      "checked": 168,
+      "failed": 35
+    },
+    "target2_monthly_rh": {
+      "checked": 168,
+      "failed": 52
+    },
+    "d1_rank_closest_hellinger": {
+      "Singapore": 2,
+      "Mumbai": 1,
+      "Dubai": 1,
+      "Houston": 2,
+      "Frankfurt": 1,
+      "London": 1,
+      "Seattle": 1,
+      "San Francisco": 1,
+      "Helsinki": 2,
+      "Fairbanks": 3,
+      "Chicago": 2,
+      "Phoenix": 1,
+      "Denver": 2,
+      "Quito": 1
+    },
+    "d4_inner_above_ref_p99": {
+      "temperature_c": 59,
+      "dewpoint_c": 87,
+      "rh_pct": 59
+    },
+    "d4_wrap_above_ref_p99": {
+      "temperature_c": 7,
+      "dewpoint_c": 10,
+      "rh_pct": 5
+    },
+    "d4s_inner_above_ref_p99": {
+      "temperature_c": 92,
+      "dewpoint_c": 98,
+      "rh_pct": 82
+    },
+    "d4s_wrap_above_ref_p99": {
+      "temperature_c": 10,
+      "dewpoint_c": 9,
+      "rh_pct": 7
+    },
+    "d5": {
+      "baseline": {
+        "point_months_changed": 0,
+        "target1_failed": 13
+      },
+      "local_solar_day": {
+        "point_months_changed": 25,
+        "target1_failed": 13
+      },
+      "humidity_mixed_ice": {
+        "point_months_changed": 0,
+        "target1_failed": 13
+      }
+    }
+  },
+  "FS-B": {
+    "target1_annual": {
+      "checked": 42,
+      "failed": 13
+    },
+    "target2_monthly_t": {
+      "checked": 168,
+      "failed": 49
+    },
+    "target2_monthly_rh": {
+      "checked": 168,
+      "failed": 36
+    },
+    "d1_rank_closest_hellinger": {
+      "Singapore": 3,
+      "Mumbai": 1,
+      "Dubai": 1,
+      "Houston": 1,
+      "Frankfurt": 3,
+      "London": 2,
+      "Seattle": 1,
+      "San Francisco": 3,
+      "Helsinki": 1,
+      "Fairbanks": 3,
+      "Chicago": 2,
+      "Phoenix": 5,
+      "Denver": 2,
+      "Quito": 1
+    },
+    "d4_inner_above_ref_p99": {
+      "temperature_c": 64,
+      "dewpoint_c": 87,
+      "rh_pct": 45
+    },
+    "d4_wrap_above_ref_p99": {
+      "temperature_c": 7,
+      "dewpoint_c": 11,
+      "rh_pct": 4
+    },
+    "d4s_inner_above_ref_p99": {
+      "temperature_c": 89,
+      "dewpoint_c": 95,
+      "rh_pct": 68
+    },
+    "d4s_wrap_above_ref_p99": {
+      "temperature_c": 8,
+      "dewpoint_c": 11,
+      "rh_pct": 7
+    },
+    "d5": {
+      "baseline": {
+        "point_months_changed": 0,
+        "target1_failed": 13
+      },
+      "local_solar_day": {
+        "point_months_changed": 37,
+        "target1_failed": 9
+      },
+      "humidity_mixed_ice": {
+        "point_months_changed": 9,
+        "target1_failed": 12
+      }
+    }
+  },
+  "selection_agreement_with_cey20": {
+    "FS-A": {
+      "same_year_point_months": 48,
+      "point_months": 168
+    },
+    "FS-B": {
+      "same_year_point_months": 72,
+      "point_months": 168
+    }
+  },
+  "label": "exploratory comparison; descriptive; does not replace the CEY20 baseline"
+}

@@ -1,0 +1,200 @@
+{
+ "label": "descriptive; transferred diagnostic thresholds against an estimated station climatology",
+ "stations": 41,
+ "distinct_s10_points": 28,
+ "C1_cey20": {
+  "stations_available": 40,
+  "annual_pass": {
+   "hours_rh_ge_80": [
+    4,
+    40
+   ],
+   "hours_rh_ge_90": [
+    2,
+    40
+   ],
+   "hours_dewpoint_depression_le_2c": [
+    2,
+    40
+   ]
+  },
+  "annual_under": {
+   "hours_rh_ge_80": 21,
+   "hours_rh_ge_90": 16,
+   "hours_dewpoint_depression_le_2c": 18
+  },
+  "annual_median_rel_error": {
+   "hours_rh_ge_80": -0.01695349543960658,
+   "hours_rh_ge_90": 0.1632001554237564,
+   "hours_dewpoint_depression_le_2c": 0.1606345602503359
+  },
+  "monthly_t_pass": [
+   125,
+   480
+  ],
+  "monthly_rh_pass": [
+   100,
+   480
+  ],
+  "monthly_median_abs_d_t": 1.0696255533318775,
+  "monthly_median_abs_d_rh": 4.585345554351804,
+  "stations_all_12_t": 0,
+  "stations_all_12_rh": 0
+ },
+ "C2_full": {
+  "stations_available": 40,
+  "annual_pass": {
+   "hours_rh_ge_80": [
+    3,
+    40
+   ],
+   "hours_rh_ge_90": [
+    1,
+    40
+   ],
+   "hours_dewpoint_depression_le_2c": [
+    1,
+    40
+   ]
+  },
+  "annual_under": {
+   "hours_rh_ge_80": 19,
+   "hours_rh_ge_90": 16,
+   "hours_dewpoint_depression_le_2c": 17
+  },
+  "annual_median_rel_error": {
+   "hours_rh_ge_80": 0.03866974645199818,
+   "hours_rh_ge_90": 0.25605068971452044,
+   "hours_dewpoint_depression_le_2c": 0.19452052533410247
+  },
+  "monthly_t_pass": [
+   137,
+   480
+  ],
+  "monthly_rh_pass": [
+   118,
+   480
+  ],
+  "monthly_median_abs_d_t": 0.8891720269855687,
+  "monthly_median_abs_d_rh": 4.845258195776687,
+  "stations_all_12_t": 0,
+  "stations_all_12_rh": 0
+ },
+ "C2_matched": {
+  "stations_available": 40,
+  "annual_pass": {
+   "hours_rh_ge_80": [
+    4,
+    40
+   ],
+   "hours_rh_ge_90": [
+    1,
+    40
+   ],
+   "hours_dewpoint_depression_le_2c": [
+    2,
+    40
+   ]
+  },
+  "annual_under": {
+   "hours_rh_ge_80": 19,
+   "hours_rh_ge_90": 16,
+   "hours_dewpoint_depression_le_2c": 17
+  },
+  "annual_median_rel_error": {
+   "hours_rh_ge_80": 0.030423417041501328,
+   "hours_rh_ge_90": 0.23262021682141443,
+   "hours_dewpoint_depression_le_2c": 0.17816040501317976
+  },
+  "monthly_t_pass": [
+   138,
+   480
+  ],
+  "monthly_rh_pass": [
+   113,
+   480
+  ],
+  "monthly_median_abs_d_t": 0.9063849210739132,
+  "monthly_median_abs_d_rh": 4.7341542695698,
+  "stations_all_12_t": 0,
+  "stations_all_12_rh": 0
+ },
+ "C3_pvgis": {
+  "stations_available": 41,
+  "annual_pass": {
+   "hours_rh_ge_80": [
+    8,
+    41
+   ],
+   "hours_rh_ge_90": [
+    2,
+    41
+   ],
+   "hours_dewpoint_depression_le_2c": [
+    4,
+    41
+   ]
+  },
+  "annual_under": {
+   "hours_rh_ge_80": 18,
+   "hours_rh_ge_90": 16,
+   "hours_dewpoint_depression_le_2c": 18
+  },
+  "annual_median_rel_error": {
+   "hours_rh_ge_80": 0.06287103271928828,
+   "hours_rh_ge_90": 0.21801883754583434,
+   "hours_dewpoint_depression_le_2c": 0.21357903134346118
+  },
+  "monthly_t_pass": [
+   114,
+   492
+  ],
+  "monthly_rh_pass": [
+   83,
+   492
+  ],
+  "monthly_median_abs_d_t": 1.3013945817947379,
+  "monthly_median_abs_d_rh": 5.8649208068847685,
+  "stations_all_12_t": 0,
+  "stations_all_12_rh": 0
+ },
+ "C4_nsrdb": {
+  "stations_available": 41,
+  "annual_pass": {
+   "hours_rh_ge_80": [
+    2,
+    41
+   ],
+   "hours_rh_ge_90": [
+    4,
+    41
+   ],
+   "hours_dewpoint_depression_le_2c": [
+    2,
+    41
+   ]
+  },
+  "annual_under": {
+   "hours_rh_ge_80": 31,
+   "hours_rh_ge_90": 29,
+   "hours_dewpoint_depression_le_2c": 26
+  },
+  "annual_median_rel_error": {
+   "hours_rh_ge_80": -0.26068049773063595,
+   "hours_rh_ge_90": -0.4937012695426695,
+   "hours_dewpoint_depression_le_2c": -0.2615407460735388
+  },
+  "monthly_t_pass": [
+   108,
+   492
+  ],
+  "monthly_rh_pass": [
+   86,
+   492
+  ],
+  "monthly_median_abs_d_t": 1.2696009284571605,
+  "monthly_median_abs_d_rh": 7.88869503924721,
+  "stations_all_12_t": 0,
+  "stations_all_12_rh": 0
+ }
+}

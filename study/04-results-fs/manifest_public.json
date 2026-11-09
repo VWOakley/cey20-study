@@ -1,0 +1,105 @@
+{
+  "command": "auth003_s4_fs",
+  "started_utc": "2026-11-06T06:18:21+00:00",
+  "finished_utc": "2026-11-06T12:42:21+00:00",
+  "code_sha": null,
+  "freeze": "docs/research/auth003-tmy/03-freeze.json",
+  "freeze_code_sha": "00efaf6a4626a727ae0332b8ce8f84a4a9301753",
+  "freeze_input_inventory_sha256": "75cfecfce8f28a8a9550ae31806df3932185bc1b49ca26fa7aba6b5e4b9f2670",
+  "points": [
+    {
+      "name": "Singapore",
+      "index": 197100
+    },
+    {
+      "name": "Mumbai",
+      "index": 172592
+    },
+    {
+      "name": "Dubai",
+      "index": 160629
+    },
+    {
+      "name": "Houston",
+      "index": 149373
+    },
+    {
+      "name": "Frankfurt",
+      "index": 93901
+    },
+    {
+      "name": "London",
+      "index": 88830
+    },
+    {
+      "name": "Seattle",
+      "index": 101891
+    },
+    {
+      "name": "San Francisco",
+      "index": 129685
+    },
+    {
+      "name": "Helsinki",
+      "index": 60358
+    },
+    {
+      "name": "Fairbanks",
+      "index": 41781
+    },
+    {
+      "name": "Chicago",
+      "index": 118652
+    },
+    {
+      "name": "Phoenix",
+      "index": 140065
+    },
+    {
+      "name": "Denver",
+      "index": 124689
+    },
+    {
+      "name": "Quito",
+      "index": 199071
+    }
+  ],
+  "input_hashes": "docs/research/auth003-tmy/03-freeze-input-sha256.json",
+  "pin": "docs/research/auth003-tmy/04-s4-fs-pin.json",
+  "s3_monthly": "docs/research/auth003-tmy/03-results/targets_monthly.csv",
+  "weights": {
+    "FS-A": {
+      "t_max": 0.125,
+      "t_min": 0.125,
+      "t_mean": 0.25,
+      "td_max": 0.125,
+      "td_min": 0.125,
+      "td_mean": 0.25
+    },
+    "FS-B": {
+      "t_max": 0.0625,
+      "t_min": 0.0625,
+      "t_mean": 0.125,
+      "td_max": 0.0625,
+      "td_min": 0.0625,
+      "td_mean": 0.125,
+      "h_rh80": 0.16666666666666666,
+      "h_rh90": 0.16666666666666666,
+      "h_dpd2": 0.16666666666666666
+    }
+  },
+  "files": [
+    "selection.csv",
+    "top5.csv",
+    "targets_annual.csv",
+    "targets_monthly.csv",
+    "d1_joint.csv",
+    "d2_spells.csv",
+    "d3_humid_temperature.csv",
+    "d4_boundaries.csv",
+    "d4s_boundaries.csv",
+    "d5_conventions.csv",
+    "d5_selection.csv",
+    "summary.json"
+  ]
+}

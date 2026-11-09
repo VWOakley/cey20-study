@@ -1,0 +1,67 @@
+{
+  "label": "screening; descriptive; in-sample; no conformity with ISO 9223 or EN 14825",
+  "a3_levels_cey20": {
+    "Singapore": "tau5",
+    "Mumbai": "tau4",
+    "Dubai": "tau3",
+    "Houston": "tau4",
+    "Frankfurt": "tau4",
+    "London": "tau4",
+    "Seattle": "tau4",
+    "San Francisco": "tau4",
+    "Helsinki": "tau4",
+    "Fairbanks": "tau3",
+    "Chicago": "tau3",
+    "Phoenix": "tau3",
+    "Denver": "tau3",
+    "Quito": "tau5"
+  },
+  "a3_years_same_level": {
+    "Singapore": 20,
+    "Mumbai": 20,
+    "Dubai": 20,
+    "Houston": 20,
+    "Frankfurt": 20,
+    "London": 20,
+    "Seattle": 20,
+    "San Francisco": 20,
+    "Helsinki": 20,
+    "Fairbanks": 20,
+    "Chicago": 13,
+    "Phoenix": 19,
+    "Denver": 20,
+    "Quito": 14
+  },
+  "region_points": {
+    "Singapore": 37,
+    "Dubai": 50,
+    "Houston": 62,
+    "Frankfurt": 81,
+    "Helsinki": 55,
+    "Fairbanks": 81,
+    "Iqaluit": 72
+  },
+  "centre_gates": {
+    "Singapore": "equal",
+    "Dubai": "equal",
+    "Houston": "equal",
+    "Frankfurt": "equal",
+    "Helsinki": "equal",
+    "Fairbanks": "equal",
+    "Iqaluit": "equal"
+  },
+  "iqaluit_selected_years": [
+    2007,
+    2012,
+    2020,
+    2008,
+    2023,
+    2011,
+    2011,
+    2017,
+    2016,
+    2023,
+    2011,
+    2018
+  ]
+}

@@ -1,0 +1,43 @@
+point,metric,pass_s3,h_selected,h_mean,sum_monthly_medians,rel_selected_vs_mean,rel_selected_vs_sum_medians,rel_sum_medians_vs_mean
+Singapore,hours_rh_ge_80,True,7003.0,6993.4,7036.5,0.0014,-0.0048,0.0062
+Mumbai,hours_rh_ge_80,True,4196.0,4198.8,4196.0,-0.0007,0.0,-0.0007
+Dubai,hours_rh_ge_80,True,1498.0,1519.1,1501.0,-0.0139,-0.002,-0.0119
+Houston,hours_rh_ge_80,True,4308.0,4265.0,4290.5,0.0101,0.0041,0.006
+Frankfurt,hours_rh_ge_80,True,4044.0,4078.0,4068.0,-0.0083,-0.0059,-0.0025
+London,hours_rh_ge_80,True,5035.0,5032.0,5046.0,0.0006,-0.0022,0.0028
+Seattle,hours_rh_ge_80,True,5003.0,5054.35,5096.0,-0.0102,-0.0182,0.0082
+San Francisco,hours_rh_ge_80,True,3888.0,3913.5,3946.5,-0.0065,-0.0148,0.0084
+Helsinki,hours_rh_ge_80,True,5437.0,5401.25,5449.5,0.0066,-0.0023,0.0089
+Fairbanks,hours_rh_ge_80,True,2456.0,2532.6,2557.5,-0.0302,-0.0397,0.0098
+Chicago,hours_rh_ge_80,True,2781.0,2788.45,2745.5,-0.0027,0.0129,-0.0154
+Phoenix,hours_rh_ge_80,False,404.0,511.95,410.0,-0.2109,-0.0146,-0.1991
+Denver,hours_rh_ge_80,False,1136.0,1305.15,1172.5,-0.1296,-0.0311,-0.1016
+Quito,hours_rh_ge_80,True,5736.0,5685.85,5742.5,0.0088,-0.0011,0.01
+Singapore,hours_rh_ge_90,True,3694.0,3764.95,3803.0,-0.0188,-0.0287,0.0101
+Mumbai,hours_rh_ge_90,True,1919.0,1907.4,1889.5,0.0061,0.0156,-0.0094
+Dubai,hours_rh_ge_90,True,630.0,631.15,600.5,-0.0018,0.0491,-0.0486
+Houston,hours_rh_ge_90,True,2495.0,2490.1,2491.5,0.002,0.0014,0.0006
+Frankfurt,hours_rh_ge_90,True,1809.0,1793.95,1730.0,0.0084,0.0457,-0.0356
+London,hours_rh_ge_90,True,2522.0,2562.05,2586.5,-0.0156,-0.0249,0.0095
+Seattle,hours_rh_ge_90,True,3037.0,2981.2,3011.5,0.0187,0.0085,0.0102
+San Francisco,hours_rh_ge_90,True,1965.0,1946.5,1971.5,0.0095,-0.0033,0.0128
+Helsinki,hours_rh_ge_90,True,2776.0,2778.1,2796.5,-0.0008,-0.0073,0.0066
+Fairbanks,hours_rh_ge_90,False,619.0,723.85,674.0,-0.1449,-0.0816,-0.0689
+Chicago,hours_rh_ge_90,False,1007.0,1086.1,1025.5,-0.0728,-0.018,-0.0558
+Phoenix,hours_rh_ge_90,False,112.0,136.05,107.5,-0.1768,0.0419,-0.2098
+Denver,hours_rh_ge_90,False,421.0,444.7,394.5,-0.0533,0.0672,-0.1129
+Quito,hours_rh_ge_90,True,3370.0,3353.05,3382.0,0.0051,-0.0035,0.0086
+Singapore,hours_dewpoint_depression_le_2c,True,4219.0,4267.0,4299.5,-0.0112,-0.0187,0.0076
+Mumbai,hours_dewpoint_depression_le_2c,True,2304.0,2303.0,2289.0,0.0004,0.0066,-0.0061
+Dubai,hours_dewpoint_depression_le_2c,True,770.0,781.15,752.0,-0.0143,0.0239,-0.0373
+Houston,hours_dewpoint_depression_le_2c,True,2883.0,2862.5,2878.0,0.0072,0.0017,0.0054
+Frankfurt,hours_dewpoint_depression_le_2c,True,2498.0,2542.55,2480.5,-0.0175,0.0071,-0.0244
+London,hours_dewpoint_depression_le_2c,True,3381.0,3349.15,3397.5,0.0095,-0.0049,0.0144
+Seattle,hours_dewpoint_depression_le_2c,True,3760.0,3683.5,3739.5,0.0208,0.0055,0.0152
+San Francisco,hours_dewpoint_depression_le_2c,True,2542.0,2548.3,2582.5,-0.0025,-0.0157,0.0134
+Helsinki,hours_dewpoint_depression_le_2c,True,3832.0,3800.4,3807.5,0.0083,0.0064,0.0019
+Fairbanks,hours_dewpoint_depression_le_2c,False,1173.0,1308.7,1282.0,-0.1037,-0.085,-0.0204
+Chicago,hours_dewpoint_depression_le_2c,True,1482.0,1518.9,1480.0,-0.0243,0.0014,-0.0256
+Phoenix,hours_dewpoint_depression_le_2c,False,188.0,229.5,186.5,-0.1808,0.008,-0.1874
+Denver,hours_dewpoint_depression_le_2c,False,610.0,685.1,613.0,-0.1096,-0.0049,-0.1052
+Quito,hours_dewpoint_depression_le_2c,True,4082.0,4081.9,4121.5,0.0,-0.0096,0.0097

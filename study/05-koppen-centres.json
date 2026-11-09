@@ -1,0 +1,58 @@
+{
+ "Singapore": {
+  "lat": 1.5,
+  "lon": 103.75,
+  "row": 10620,
+  "col": 34050,
+  "value": 1,
+  "cls": "Af"
+ },
+ "Dubai": {
+  "lat": 25.0,
+  "lon": 55.25,
+  "row": 7800,
+  "col": 28230,
+  "value": 4,
+  "cls": "BWh"
+ },
+ "Houston": {
+  "lat": 29.75,
+  "lon": -95.25,
+  "row": 7230,
+  "col": 10170,
+  "value": 14,
+  "cls": "Cfa"
+ },
+ "Frankfurt": {
+  "lat": 50.0,
+  "lon": 8.75,
+  "row": 4800,
+  "col": 22650,
+  "value": 15,
+  "cls": "Cfb"
+ },
+ "Helsinki": {
+  "lat": 60.25,
+  "lon": 25.0,
+  "row": 3570,
+  "col": 24600,
+  "value": 26,
+  "cls": "Dfb"
+ },
+ "Fairbanks": {
+  "lat": 64.75,
+  "lon": -147.75,
+  "row": 3030,
+  "col": 3870,
+  "value": 26,
+  "cls": "Dfb"
+ },
+ "Iqaluit": {
+  "lat": 63.75,
+  "lon": -68.5,
+  "row": 3150,
+  "col": 13380,
+  "value": 29,
+  "cls": "ET"
+ }
+}

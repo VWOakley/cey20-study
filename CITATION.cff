@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this study package, please cite it and the preprint it supports."
+title: "CEY20 study package: design and evaluation of a moisture-weighted typical-month selection"
+type: software
+license: MIT
+authors:
+  - family-names: Okley
+    given-names: Wadim
+    affiliation: Independent researcher
+    orcid: "https://orcid.org/0009-0000-2257-9728"
+repository-code: "https://github.com/VWOakley/cey20-study"
+keywords:
+  - ERA5-Land
+  - typical meteorological year
+  - reference year
+  - humidity
+  - exposure

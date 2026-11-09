@@ -1,0 +1,43 @@
+{
+  "d1_rank_closest_hellinger": {
+    "Singapore": 2,
+    "Mumbai": 1,
+    "Dubai": 1,
+    "Houston": 1,
+    "Frankfurt": 7,
+    "London": 1,
+    "Seattle": 1,
+    "San Francisco": 3,
+    "Helsinki": 1,
+    "Fairbanks": 1,
+    "Chicago": 1,
+    "Phoenix": 4,
+    "Denver": 2,
+    "Quito": 1
+  },
+  "d4_inner_above_ref_p99": {
+    "temperature_c": 68,
+    "dewpoint_c": 85,
+    "rh_pct": 55
+  },
+  "d4_inner_checked_per_variable": 154,
+  "d4_wrap_above_ref_p99": {
+    "temperature_c": 7,
+    "dewpoint_c": 11,
+    "rh_pct": 4
+  },
+  "d5": {
+    "baseline": {
+      "point_months_changed": 0,
+      "target1_failed": 9
+    },
+    "local_solar_day": {
+      "point_months_changed": 4,
+      "target1_failed": 9
+    },
+    "humidity_mixed_ice": {
+      "point_months_changed": 9,
+      "target1_failed": 8
+    }
+  }
+}

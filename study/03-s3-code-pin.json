@@ -1,0 +1,8 @@
+{
+ "auth003_study.py": "18fc798e24fa5c2d19f457dc3f9c6ec091be80f1d0de0c4cfe78f60b27ae6092",
+ "auth003_s3.py": "d387ab473e866ff3b6cf4f28ca43437de63c1a50d79cacb773c9514127ce5781",
+ "source_commit": "7d222a8 (research/AUTH-003-S3-run; S2 package d5a276e approved by Copilot and Codex; runner reviewed by Copilot)",
+ "hash_basis": "SHA-256 of the committed blob (LF line endings)",
+ "pinned_utc": "2026-10-31T10:41:48Z",
+ "note": "Committed before any S3 outcome was computed."
+}

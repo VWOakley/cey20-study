@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-11-06",
+  "note": "interpreter used for the S3-S5 and S10 runs (C:/Users/<user>/anaconda3/python.exe); recorded after the runs; that the environment was unchanged since the runs is not independently verified",
+  "python": "3.12.3",
+  "implementation": "CPython",
+  "os": "Windows-11",
+  "packages": {
+    "numpy": "2.2.1",
+    "netCDF4": "1.7.2",
+    "cftime": "1.6.5",
+    "scipy": "1.14.1",
+    "shapely": "2.1.2",
+    "pyproj": "not installed",
+    "matplotlib": "3.11.1",
+    "Pillow": "9.5.0"
+  }
+}

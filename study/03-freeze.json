@@ -1,0 +1,2366 @@
+{
+ "schema": "auth003-s3-freeze-v1",
+ "frozen_at": "2026-10-31T09:27:03+00:00",
+ "code_sha": "00efaf6a4626a727ae0332b8ce8f84a4a9301753",
+ "builder": "backend/scripts/build_global_cey20_landpoint_dataset.py",
+ "selection_identity": {
+  "years": [
+   2006,
+   2025
+  ],
+  "feature_weights": {
+   "temperature_mean_c": 1.5,
+   "temperature_p95_c": 0.8,
+   "relative_humidity_mean_pct": 1.5,
+   "relative_humidity_p90_pct": 1.0,
+   "absolute_humidity_mean_g_m3": 1.0,
+   "dewpoint_depression_p10_c": 0.8,
+   "hours_rh_ge_80": 1.2,
+   "hours_rh_ge_90": 1.0,
+   "hours_dewpoint_depression_le_2c": 1.0,
+   "daily_temperature_range_mean_c": 0.7
+  },
+  "feature_scales": {
+   "temperature_mean_c": 8.0,
+   "temperature_p95_c": 10.0,
+   "relative_humidity_mean_pct": 20.0,
+   "relative_humidity_p90_pct": 20.0,
+   "absolute_humidity_mean_g_m3": 8.0,
+   "dewpoint_depression_p10_c": 8.0,
+   "hours_rh_ge_80": 180.0,
+   "hours_rh_ge_90": 120.0,
+   "hours_dewpoint_depression_le_2c": 120.0,
+   "daily_temperature_range_mean_c": 8.0
+  },
+  "reference_year": 2001,
+  "grid": "0.25 degree packed ERA5-Land land points"
+ },
+ "protocol_file": "docs/research/auth003-tmy/03-study-protocol.md",
+ "protocol_sha256": "3bb602894167da20e601d3d8cfd5b77337bd35d6a861ec5671726d5ade330c8d",
+ "source_manifests_sha256": {
+  "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\manifest.json": "513d60cac5edb1d3413a36ffefe380e438d1de0caf202d9e0fc0102f096814e7",
+  "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\manifest.json": "ce2030d7b45074794116559dee8a8085541aa40eff32ff41b6f179d9532c3520"
+ },
+ "input_inventory_sha256": "75cfecfce8f28a8a9550ae31806df3932185bc1b49ca26fa7aba6b5e4b9f2670",
+ "input_files": 240,
+ "inputs_time_ok": 240,
+ "points": [
+  {
+   "name": "Singapore",
+   "requested_lat": 1.3521,
+   "requested_lon": 103.8198,
+   "point_index": 197100,
+   "grid_lat": 1.5,
+   "grid_lon": 103.75,
+   "distance_km": 18.18,
+   "eligible": true,
+   "problems": []
+  },
+  {
+   "name": "Mumbai",
+   "requested_lat": 19.076,
+   "requested_lon": 72.8777,
+   "point_index": 172592,
+   "grid_lat": 19.0,
+   "grid_lon": 73.0,
+   "distance_km": 15.38,
+   "eligible": true,
+   "problems": []
+  },
+  {
+   "name": "Dubai",
+   "requested_lat": 25.2048,
+   "requested_lon": 55.2708,
+   "point_index": 160629,
+   "grid_lat": 25.0,
+   "grid_lon": 55.25,
+   "distance_km": 22.87,
+   "eligible": true,
+   "problems": []
+  },
+  {
+   "name": "Houston",
+   "requested_lat": 29.7604,
+   "requested_lon": -95.3698,
+   "point_index": 149373,
+   "grid_lat": 29.75,
+   "grid_lon": -95.25,
+   "distance_km": 11.62,
+   "eligible": true,
+   "problems": []
+  },
+  {
+   "name": "Frankfurt",
+   "requested_lat": 50.1109,
+   "requested_lon": 8.6821,
+   "point_index": 93901,
+   "grid_lat": 50.0,
+   "grid_lon": 8.75,
+   "distance_km": 13.25,
+   "eligible": true,
+   "problems": []
+  },
+  {
+   "name": "London",
+   "requested_lat": 51.5074,
+   "requested_lon": -0.1278,
+   "point_index": 88830,
+   "grid_lat": 51.5,
+   "grid_lon": -0.25,
+   "distance_km": 8.5,
+   "eligible": true,
+   "problems": []
+  },
+  {
+   "name": "Seattle",
+   "requested_lat": 47.6062,
+   "requested_lon": -122.3321,
+   "point_index": 101891,
+   "grid_lat": 47.5,
+   "grid_lon": -122.25,
+   "distance_km": 13.32,
+   "eligible": true,
+   "problems": []
+  },
+  {
+   "name": "San Francisco",
+   "requested_lat": 37.7749,
+   "requested_lon": -122.4194,
+   "point_index": 129685,
+   "grid_lat": 37.75,
+   "grid_lon": -122.25,
+   "distance_km": 15.15,
+   "eligible": true,
+   "problems": []
+  },
+  {
+   "name": "Helsinki",
+   "requested_lat": 60.1699,
+   "requested_lon": 24.9384,
+   "point_index": 60358,
+   "grid_lat": 60.25,
+   "grid_lon": 25.0,
+   "distance_km": 9.53,
+   "eligible": true,
+   "problems": []
+  },
+  {
+   "name": "Fairbanks",
+   "requested_lat": 64.8378,
+   "requested_lon": -147.7164,
+   "point_index": 41781,
+   "grid_lat": 64.75,
+   "grid_lon": -147.75,
+   "distance_km": 9.89,
+   "eligible": true,
+   "problems": []
+  },
+  {
+   "name": "Chicago",
+   "requested_lat": 41.8781,
+   "requested_lon": -87.6298,
+   "point_index": 118652,
+   "grid_lat": 42.0,
+   "grid_lon": -87.75,
+   "distance_km": 16.81,
+   "eligible": true,
+   "problems": []
+  },
+  {
+   "name": "Phoenix",
+   "requested_lat": 33.4484,
+   "requested_lon": -112.074,
+   "point_index": 140065,
+   "grid_lat": 33.5,
+   "grid_lon": -112.0,
+   "distance_km": 8.95,
+   "eligible": true,
+   "problems": []
+  },
+  {
+   "name": "Denver",
+   "requested_lat": 39.7392,
+   "requested_lon": -104.9903,
+   "point_index": 124689,
+   "grid_lat": 39.75,
+   "grid_lon": -105.0,
+   "distance_km": 1.46,
+   "eligible": true,
+   "problems": []
+  },
+  {
+   "name": "Quito",
+   "requested_lat": -0.1807,
+   "requested_lon": -78.4678,
+   "point_index": 199071,
+   "grid_lat": -0.25,
+   "grid_lon": -78.5,
+   "distance_km": 8.5,
+   "eligible": true,
+   "problems": []
+  }
+ ],
+ "input_inventory": [
+  {
+   "year": 2006,
+   "month": 1,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2006\\era5_land_hourly_0p25_landpoints_2006_01.nc",
+   "bytes": 1039351287,
+   "mtime_utc": "2026-09-25T19:19:01+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2006,
+   "month": 2,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2006\\era5_land_hourly_0p25_landpoints_2006_02.nc",
+   "bytes": 956475840,
+   "mtime_utc": "2026-09-25T19:48:24+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2006,
+   "month": 3,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2006\\era5_land_hourly_0p25_landpoints_2006_03.nc",
+   "bytes": 1050991470,
+   "mtime_utc": "2026-09-25T20:40:49+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2006,
+   "month": 4,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2006\\era5_land_hourly_0p25_landpoints_2006_04.nc",
+   "bytes": 1003789930,
+   "mtime_utc": "2026-09-25T23:02:36+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2006,
+   "month": 5,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2006\\era5_land_hourly_0p25_landpoints_2006_05.nc",
+   "bytes": 1039879321,
+   "mtime_utc": "2026-09-26T00:33:22+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2006,
+   "month": 6,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2006\\era5_land_hourly_0p25_landpoints_2006_06.nc",
+   "bytes": 1013118461,
+   "mtime_utc": "2026-09-26T01:39:48+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2006,
+   "month": 7,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2006\\era5_land_hourly_0p25_landpoints_2006_07.nc",
+   "bytes": 1042647212,
+   "mtime_utc": "2026-09-26T02:16:48+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2006,
+   "month": 8,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2006\\era5_land_hourly_0p25_landpoints_2006_08.nc",
+   "bytes": 1033184300,
+   "mtime_utc": "2026-09-26T04:06:04+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2006,
+   "month": 9,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2006\\era5_land_hourly_0p25_landpoints_2006_09.nc",
+   "bytes": 1006910641,
+   "mtime_utc": "2026-09-26T04:56:03+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2006,
+   "month": 10,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2006\\era5_land_hourly_0p25_landpoints_2006_10.nc",
+   "bytes": 1057146193,
+   "mtime_utc": "2026-09-26T07:18:47+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2006,
+   "month": 11,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2006\\era5_land_hourly_0p25_landpoints_2006_11.nc",
+   "bytes": 1013602312,
+   "mtime_utc": "2026-09-26T07:42:52+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2006,
+   "month": 12,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2006\\era5_land_hourly_0p25_landpoints_2006_12.nc",
+   "bytes": 1024935300,
+   "mtime_utc": "2026-09-26T10:17:14+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2007,
+   "month": 1,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2007\\era5_land_hourly_0p25_landpoints_2007_01.nc",
+   "bytes": 1037799592,
+   "mtime_utc": "2026-09-26T10:56:06+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2007,
+   "month": 2,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2007\\era5_land_hourly_0p25_landpoints_2007_02.nc",
+   "bytes": 954440633,
+   "mtime_utc": "2026-09-26T13:14:37+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2007,
+   "month": 3,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2007\\era5_land_hourly_0p25_landpoints_2007_03.nc",
+   "bytes": 1051504512,
+   "mtime_utc": "2026-09-26T13:30:03+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2007,
+   "month": 4,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2007\\era5_land_hourly_0p25_landpoints_2007_04.nc",
+   "bytes": 1003988983,
+   "mtime_utc": "2026-09-26T14:03:02+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2007,
+   "month": 5,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2007\\era5_land_hourly_0p25_landpoints_2007_05.nc",
+   "bytes": 1039392632,
+   "mtime_utc": "2026-09-26T14:40:31+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2007,
+   "month": 6,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2007\\era5_land_hourly_0p25_landpoints_2007_06.nc",
+   "bytes": 1009693651,
+   "mtime_utc": "2026-09-26T15:37:05+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2007,
+   "month": 7,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2007\\era5_land_hourly_0p25_landpoints_2007_07.nc",
+   "bytes": 1041365680,
+   "mtime_utc": "2026-09-26T16:26:32+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2007,
+   "month": 8,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2007\\era5_land_hourly_0p25_landpoints_2007_08.nc",
+   "bytes": 1030981802,
+   "mtime_utc": "2026-09-26T16:59:30+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2007,
+   "month": 9,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2007\\era5_land_hourly_0p25_landpoints_2007_09.nc",
+   "bytes": 1005890751,
+   "mtime_utc": "2026-09-26T17:25:49+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2007,
+   "month": 10,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2007\\era5_land_hourly_0p25_landpoints_2007_10.nc",
+   "bytes": 1055769917,
+   "mtime_utc": "2026-09-26T18:42:58+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2007,
+   "month": 11,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2007\\era5_land_hourly_0p25_landpoints_2007_11.nc",
+   "bytes": 1014849608,
+   "mtime_utc": "2026-09-26T19:29:50+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2007,
+   "month": 12,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2007\\era5_land_hourly_0p25_landpoints_2007_12.nc",
+   "bytes": 1025901033,
+   "mtime_utc": "2026-09-26T22:17:49+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2008,
+   "month": 1,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2008\\era5_land_hourly_0p25_landpoints_2008_01.nc",
+   "bytes": 1038014040,
+   "mtime_utc": "2026-09-26T22:54:51+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2008,
+   "month": 2,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2008\\era5_land_hourly_0p25_landpoints_2008_02.nc",
+   "bytes": 988074955,
+   "mtime_utc": "2026-09-26T23:47:02+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2008,
+   "month": 3,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2008\\era5_land_hourly_0p25_landpoints_2008_03.nc",
+   "bytes": 1050347886,
+   "mtime_utc": "2026-09-27T00:42:22+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2008,
+   "month": 4,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2008\\era5_land_hourly_0p25_landpoints_2008_04.nc",
+   "bytes": 1003920257,
+   "mtime_utc": "2026-09-27T01:01:39+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2008,
+   "month": 5,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2008\\era5_land_hourly_0p25_landpoints_2008_05.nc",
+   "bytes": 1042178558,
+   "mtime_utc": "2026-09-27T03:20:31+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2008,
+   "month": 6,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2008\\era5_land_hourly_0p25_landpoints_2008_06.nc",
+   "bytes": 1013580874,
+   "mtime_utc": "2026-09-27T04:01:04+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2008,
+   "month": 7,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2008\\era5_land_hourly_0p25_landpoints_2008_07.nc",
+   "bytes": 1040331076,
+   "mtime_utc": "2026-09-27T05:06:16+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2008,
+   "month": 8,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2008\\era5_land_hourly_0p25_landpoints_2008_08.nc",
+   "bytes": 1032266245,
+   "mtime_utc": "2026-09-27T06:45:30+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2008,
+   "month": 9,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2008\\era5_land_hourly_0p25_landpoints_2008_09.nc",
+   "bytes": 1004491537,
+   "mtime_utc": "2026-09-28T11:26:24+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2008,
+   "month": 10,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2008\\era5_land_hourly_0p25_landpoints_2008_10.nc",
+   "bytes": 1056124468,
+   "mtime_utc": "2026-09-28T12:39:12+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2008,
+   "month": 11,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2008\\era5_land_hourly_0p25_landpoints_2008_11.nc",
+   "bytes": 1012350580,
+   "mtime_utc": "2026-09-28T12:30:24+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2008,
+   "month": 12,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2008\\era5_land_hourly_0p25_landpoints_2008_12.nc",
+   "bytes": 1021223872,
+   "mtime_utc": "2026-09-28T12:18:37+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2009,
+   "month": 1,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2009\\era5_land_hourly_0p25_landpoints_2009_01.nc",
+   "bytes": 1037776710,
+   "mtime_utc": "2026-09-28T12:55:00+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2009,
+   "month": 2,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2009\\era5_land_hourly_0p25_landpoints_2009_02.nc",
+   "bytes": 952262747,
+   "mtime_utc": "2026-09-28T13:33:30+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2009,
+   "month": 3,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2009\\era5_land_hourly_0p25_landpoints_2009_03.nc",
+   "bytes": 1051031237,
+   "mtime_utc": "2026-09-28T14:01:54+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2009,
+   "month": 4,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2009\\era5_land_hourly_0p25_landpoints_2009_04.nc",
+   "bytes": 1006228950,
+   "mtime_utc": "2026-09-28T14:34:38+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2009,
+   "month": 5,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2009\\era5_land_hourly_0p25_landpoints_2009_05.nc",
+   "bytes": 1040752869,
+   "mtime_utc": "2026-09-28T14:59:03+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2009,
+   "month": 6,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2009\\era5_land_hourly_0p25_landpoints_2009_06.nc",
+   "bytes": 1010892014,
+   "mtime_utc": "2026-09-28T15:36:54+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2009,
+   "month": 7,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2009\\era5_land_hourly_0p25_landpoints_2009_07.nc",
+   "bytes": 1040375888,
+   "mtime_utc": "2026-09-28T16:09:07+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2009,
+   "month": 8,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2009\\era5_land_hourly_0p25_landpoints_2009_08.nc",
+   "bytes": 1032001859,
+   "mtime_utc": "2026-09-28T17:49:55+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2009,
+   "month": 9,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2009\\era5_land_hourly_0p25_landpoints_2009_09.nc",
+   "bytes": 1004348838,
+   "mtime_utc": "2026-09-28T19:01:57+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2009,
+   "month": 10,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2009\\era5_land_hourly_0p25_landpoints_2009_10.nc",
+   "bytes": 1055295670,
+   "mtime_utc": "2026-09-28T16:49:44+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2009,
+   "month": 11,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2009\\era5_land_hourly_0p25_landpoints_2009_11.nc",
+   "bytes": 1011666940,
+   "mtime_utc": "2026-09-28T19:38:31+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2009,
+   "month": 12,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2009\\era5_land_hourly_0p25_landpoints_2009_12.nc",
+   "bytes": 1023760551,
+   "mtime_utc": "2026-09-28T20:04:09+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2010,
+   "month": 1,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2010\\era5_land_hourly_0p25_landpoints_2010_01.nc",
+   "bytes": 1036747014,
+   "mtime_utc": "2026-09-28T20:24:23+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2010,
+   "month": 2,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2010\\era5_land_hourly_0p25_landpoints_2010_02.nc",
+   "bytes": 953081385,
+   "mtime_utc": "2026-09-28T21:12:49+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2010,
+   "month": 3,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2010\\era5_land_hourly_0p25_landpoints_2010_03.nc",
+   "bytes": 1050186611,
+   "mtime_utc": "2026-09-28T22:00:41+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2010,
+   "month": 4,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2010\\era5_land_hourly_0p25_landpoints_2010_04.nc",
+   "bytes": 1005528386,
+   "mtime_utc": "2026-09-28T22:51:57+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2010,
+   "month": 5,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2010\\era5_land_hourly_0p25_landpoints_2010_05.nc",
+   "bytes": 1040120485,
+   "mtime_utc": "2026-09-29T01:04:26+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2010,
+   "month": 6,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2010\\era5_land_hourly_0p25_landpoints_2010_06.nc",
+   "bytes": 1012025970,
+   "mtime_utc": "2026-09-29T01:53:33+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2010,
+   "month": 7,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2010\\era5_land_hourly_0p25_landpoints_2010_07.nc",
+   "bytes": 1041879603,
+   "mtime_utc": "2026-09-29T02:20:22+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2010,
+   "month": 8,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2010\\era5_land_hourly_0p25_landpoints_2010_08.nc",
+   "bytes": 1033550285,
+   "mtime_utc": "2026-09-29T03:29:43+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2010,
+   "month": 9,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2010\\era5_land_hourly_0p25_landpoints_2010_09.nc",
+   "bytes": 1004626523,
+   "mtime_utc": "2026-09-29T04:32:51+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2010,
+   "month": 10,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2010\\era5_land_hourly_0p25_landpoints_2010_10.nc",
+   "bytes": 1054607207,
+   "mtime_utc": "2026-09-29T06:53:10+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2010,
+   "month": 11,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2010\\era5_land_hourly_0p25_landpoints_2010_11.nc",
+   "bytes": 1014444212,
+   "mtime_utc": "2026-09-29T07:21:51+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2010,
+   "month": 12,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2010\\era5_land_hourly_0p25_landpoints_2010_12.nc",
+   "bytes": 1025809102,
+   "mtime_utc": "2026-09-29T07:50:25+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2011,
+   "month": 1,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2011\\era5_land_hourly_0p25_landpoints_2011_01.nc",
+   "bytes": 1036145216,
+   "mtime_utc": "2026-09-29T08:53:58+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2011,
+   "month": 2,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2011\\era5_land_hourly_0p25_landpoints_2011_02.nc",
+   "bytes": 955097454,
+   "mtime_utc": "2026-09-29T10:24:43+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2011,
+   "month": 3,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2011\\era5_land_hourly_0p25_landpoints_2011_03.nc",
+   "bytes": 1051638184,
+   "mtime_utc": "2026-09-29T12:43:10+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2011,
+   "month": 4,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2011\\era5_land_hourly_0p25_landpoints_2011_04.nc",
+   "bytes": 1004818845,
+   "mtime_utc": "2026-09-29T13:25:15+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2011,
+   "month": 5,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2011\\era5_land_hourly_0p25_landpoints_2011_05.nc",
+   "bytes": 1043109226,
+   "mtime_utc": "2026-09-29T13:54:54+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2011,
+   "month": 6,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2011\\era5_land_hourly_0p25_landpoints_2011_06.nc",
+   "bytes": 1014225089,
+   "mtime_utc": "2026-09-29T14:42:15+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2011,
+   "month": 7,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2011\\era5_land_hourly_0p25_landpoints_2011_07.nc",
+   "bytes": 1043330850,
+   "mtime_utc": "2026-09-29T16:57:25+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2011,
+   "month": 8,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2011\\era5_land_hourly_0p25_landpoints_2011_08.nc",
+   "bytes": 1031944650,
+   "mtime_utc": "2026-09-29T17:32:44+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2011,
+   "month": 9,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2011\\era5_land_hourly_0p25_landpoints_2011_09.nc",
+   "bytes": 1003733264,
+   "mtime_utc": "2026-09-29T19:36:49+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2011,
+   "month": 10,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2011\\era5_land_hourly_0p25_landpoints_2011_10.nc",
+   "bytes": 1056422747,
+   "mtime_utc": "2026-09-29T20:18:11+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2011,
+   "month": 11,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2011\\era5_land_hourly_0p25_landpoints_2011_11.nc",
+   "bytes": 1008054759,
+   "mtime_utc": "2026-09-29T22:08:54+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2011,
+   "month": 12,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2011\\era5_land_hourly_0p25_landpoints_2011_12.nc",
+   "bytes": 1026887553,
+   "mtime_utc": "2026-09-29T22:42:57+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2012,
+   "month": 1,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2012\\era5_land_hourly_0p25_landpoints_2012_01.nc",
+   "bytes": 1035434192,
+   "mtime_utc": "2026-09-30T00:22:27+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2012,
+   "month": 2,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2012\\era5_land_hourly_0p25_landpoints_2012_02.nc",
+   "bytes": 990617922,
+   "mtime_utc": "2026-09-30T00:42:56+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2012,
+   "month": 3,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2012\\era5_land_hourly_0p25_landpoints_2012_03.nc",
+   "bytes": 1049900876,
+   "mtime_utc": "2026-09-30T01:53:23+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2012,
+   "month": 4,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2012\\era5_land_hourly_0p25_landpoints_2012_04.nc",
+   "bytes": 1004402464,
+   "mtime_utc": "2026-09-30T02:12:20+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2012,
+   "month": 5,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2012\\era5_land_hourly_0p25_landpoints_2012_05.nc",
+   "bytes": 1043714286,
+   "mtime_utc": "2026-09-30T03:53:24+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2012,
+   "month": 6,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2012\\era5_land_hourly_0p25_landpoints_2012_06.nc",
+   "bytes": 1013766409,
+   "mtime_utc": "2026-09-30T04:29:32+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2012,
+   "month": 7,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2012\\era5_land_hourly_0p25_landpoints_2012_07.nc",
+   "bytes": 1042275451,
+   "mtime_utc": "2026-09-30T05:51:08+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2012,
+   "month": 8,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2012\\era5_land_hourly_0p25_landpoints_2012_08.nc",
+   "bytes": 1034268496,
+   "mtime_utc": "2026-09-30T07:28:56+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2012,
+   "month": 9,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2012\\era5_land_hourly_0p25_landpoints_2012_09.nc",
+   "bytes": 1006365855,
+   "mtime_utc": "2026-09-30T07:38:18+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2012,
+   "month": 10,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2012\\era5_land_hourly_0p25_landpoints_2012_10.nc",
+   "bytes": 1055887086,
+   "mtime_utc": "2026-09-30T08:13:50+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2012,
+   "month": 11,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2012\\era5_land_hourly_0p25_landpoints_2012_11.nc",
+   "bytes": 1010555731,
+   "mtime_utc": "2026-09-30T09:11:03+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2012,
+   "month": 12,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2012\\era5_land_hourly_0p25_landpoints_2012_12.nc",
+   "bytes": 1023762545,
+   "mtime_utc": "2026-09-30T10:36:46+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2013,
+   "month": 1,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2013\\era5_land_hourly_0p25_landpoints_2013_01.nc",
+   "bytes": 1041056335,
+   "mtime_utc": "2026-09-30T11:30:45+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2013,
+   "month": 2,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2013\\era5_land_hourly_0p25_landpoints_2013_02.nc",
+   "bytes": 955160310,
+   "mtime_utc": "2026-09-30T12:28:47+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2013,
+   "month": 3,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2013\\era5_land_hourly_0p25_landpoints_2013_03.nc",
+   "bytes": 1054365940,
+   "mtime_utc": "2026-09-30T13:07:01+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2013,
+   "month": 4,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2013\\era5_land_hourly_0p25_landpoints_2013_04.nc",
+   "bytes": 1003149684,
+   "mtime_utc": "2026-09-30T14:10:58+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2013,
+   "month": 5,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2013\\era5_land_hourly_0p25_landpoints_2013_05.nc",
+   "bytes": 1044689385,
+   "mtime_utc": "2026-09-30T15:08:38+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2013,
+   "month": 6,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2013\\era5_land_hourly_0p25_landpoints_2013_06.nc",
+   "bytes": 1010852624,
+   "mtime_utc": "2026-09-30T16:18:57+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2013,
+   "month": 7,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2013\\era5_land_hourly_0p25_landpoints_2013_07.nc",
+   "bytes": 1040042738,
+   "mtime_utc": "2026-09-30T16:53:39+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2013,
+   "month": 8,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2013\\era5_land_hourly_0p25_landpoints_2013_08.nc",
+   "bytes": 1030349360,
+   "mtime_utc": "2026-09-30T17:33:04+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2013,
+   "month": 9,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2013\\era5_land_hourly_0p25_landpoints_2013_09.nc",
+   "bytes": 1003200344,
+   "mtime_utc": "2026-09-30T19:14:27+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2013,
+   "month": 10,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2013\\era5_land_hourly_0p25_landpoints_2013_10.nc",
+   "bytes": 1054572090,
+   "mtime_utc": "2026-09-30T20:16:14+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2013,
+   "month": 11,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2013\\era5_land_hourly_0p25_landpoints_2013_11.nc",
+   "bytes": 1011124149,
+   "mtime_utc": "2026-09-30T20:50:28+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2013,
+   "month": 12,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2013\\era5_land_hourly_0p25_landpoints_2013_12.nc",
+   "bytes": 1022511995,
+   "mtime_utc": "2026-09-30T21:19:25+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2014,
+   "month": 1,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2014\\era5_land_hourly_0p25_landpoints_2014_01.nc",
+   "bytes": 1036712503,
+   "mtime_utc": "2026-09-30T22:10:01+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2014,
+   "month": 2,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2014\\era5_land_hourly_0p25_landpoints_2014_02.nc",
+   "bytes": 955709001,
+   "mtime_utc": "2026-09-30T23:27:38+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2014,
+   "month": 3,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2014\\era5_land_hourly_0p25_landpoints_2014_03.nc",
+   "bytes": 1052715497,
+   "mtime_utc": "2026-10-01T00:08:10+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2014,
+   "month": 4,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2014\\era5_land_hourly_0p25_landpoints_2014_04.nc",
+   "bytes": 1002322992,
+   "mtime_utc": "2026-10-01T00:44:52+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2014,
+   "month": 5,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2014\\era5_land_hourly_0p25_landpoints_2014_05.nc",
+   "bytes": 1043052064,
+   "mtime_utc": "2026-10-01T00:58:54+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2014,
+   "month": 6,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2014\\era5_land_hourly_0p25_landpoints_2014_06.nc",
+   "bytes": 1010794889,
+   "mtime_utc": "2026-10-01T02:07:17+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2014,
+   "month": 7,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2014\\era5_land_hourly_0p25_landpoints_2014_07.nc",
+   "bytes": 1042219860,
+   "mtime_utc": "2026-10-01T02:50:01+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2014,
+   "month": 8,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2014\\era5_land_hourly_0p25_landpoints_2014_08.nc",
+   "bytes": 1033875949,
+   "mtime_utc": "2026-10-01T03:25:23+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2014,
+   "month": 9,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2014\\era5_land_hourly_0p25_landpoints_2014_09.nc",
+   "bytes": 1004496345,
+   "mtime_utc": "2026-10-01T08:51:24+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2014,
+   "month": 10,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2014\\era5_land_hourly_0p25_landpoints_2014_10.nc",
+   "bytes": 1055188247,
+   "mtime_utc": "2026-10-01T10:30:22+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2014,
+   "month": 11,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2014\\era5_land_hourly_0p25_landpoints_2014_11.nc",
+   "bytes": 1009189243,
+   "mtime_utc": "2026-10-01T11:05:57+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2014,
+   "month": 12,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2014\\era5_land_hourly_0p25_landpoints_2014_12.nc",
+   "bytes": 1021875340,
+   "mtime_utc": "2026-10-01T11:51:05+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2015,
+   "month": 1,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2015\\era5_land_hourly_0p25_landpoints_2015_01.nc",
+   "bytes": 854576078,
+   "mtime_utc": "2026-07-19T18:56:22+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2015,
+   "month": 2,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2015\\era5_land_hourly_0p25_landpoints_2015_02.nc",
+   "bytes": 778859369,
+   "mtime_utc": "2026-07-19T19:09:07+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2015,
+   "month": 3,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2015\\era5_land_hourly_0p25_landpoints_2015_03.nc",
+   "bytes": 866930527,
+   "mtime_utc": "2026-07-19T19:19:35+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2015,
+   "month": 4,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2015\\era5_land_hourly_0p25_landpoints_2015_04.nc",
+   "bytes": 838924562,
+   "mtime_utc": "2026-07-19T19:28:54+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2015,
+   "month": 5,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2015\\era5_land_hourly_0p25_landpoints_2015_05.nc",
+   "bytes": 867720800,
+   "mtime_utc": "2026-07-19T19:39:04+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2015,
+   "month": 6,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2015\\era5_land_hourly_0p25_landpoints_2015_06.nc",
+   "bytes": 835592452,
+   "mtime_utc": "2026-07-19T20:10:16+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2015,
+   "month": 7,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2015\\era5_land_hourly_0p25_landpoints_2015_07.nc",
+   "bytes": 864191003,
+   "mtime_utc": "2026-07-19T21:24:37+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2015,
+   "month": 8,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2015\\era5_land_hourly_0p25_landpoints_2015_08.nc",
+   "bytes": 864879453,
+   "mtime_utc": "2026-07-19T22:50:48+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2015,
+   "month": 9,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2015\\era5_land_hourly_0p25_landpoints_2015_09.nc",
+   "bytes": 836766326,
+   "mtime_utc": "2026-07-20T00:06:33+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2015,
+   "month": 10,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2015\\era5_land_hourly_0p25_landpoints_2015_10.nc",
+   "bytes": 859345764,
+   "mtime_utc": "2026-07-20T01:31:48+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2015,
+   "month": 11,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2015\\era5_land_hourly_0p25_landpoints_2015_11.nc",
+   "bytes": 828793513,
+   "mtime_utc": "2026-07-20T02:47:40+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2015,
+   "month": 12,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2015\\era5_land_hourly_0p25_landpoints_2015_12.nc",
+   "bytes": 854785224,
+   "mtime_utc": "2026-07-20T04:18:30+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2016,
+   "month": 1,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2016\\era5_land_hourly_0p25_landpoints_2016_01.nc",
+   "bytes": 857121085,
+   "mtime_utc": "2026-07-20T05:27:54+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2016,
+   "month": 2,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2016\\era5_land_hourly_0p25_landpoints_2016_02.nc",
+   "bytes": 806447390,
+   "mtime_utc": "2026-07-20T06:54:35+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2016,
+   "month": 3,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2016\\era5_land_hourly_0p25_landpoints_2016_03.nc",
+   "bytes": 866209264,
+   "mtime_utc": "2026-07-20T08:14:57+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2016,
+   "month": 4,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2016\\era5_land_hourly_0p25_landpoints_2016_04.nc",
+   "bytes": 839339182,
+   "mtime_utc": "2026-07-21T07:02:59+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2016,
+   "month": 5,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2016\\era5_land_hourly_0p25_landpoints_2016_05.nc",
+   "bytes": 866305150,
+   "mtime_utc": "2026-07-21T07:56:42+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2016,
+   "month": 6,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2016\\era5_land_hourly_0p25_landpoints_2016_06.nc",
+   "bytes": 836699170,
+   "mtime_utc": "2026-07-21T08:45:20+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2016,
+   "month": 7,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2016\\era5_land_hourly_0p25_landpoints_2016_07.nc",
+   "bytes": 864172071,
+   "mtime_utc": "2026-07-21T09:34:28+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2016,
+   "month": 8,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2016\\era5_land_hourly_0p25_landpoints_2016_08.nc",
+   "bytes": 863391087,
+   "mtime_utc": "2026-07-21T10:24:38+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2016,
+   "month": 9,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2016\\era5_land_hourly_0p25_landpoints_2016_09.nc",
+   "bytes": 835359875,
+   "mtime_utc": "2026-07-21T11:18:27+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2016,
+   "month": 10,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2016\\era5_land_hourly_0p25_landpoints_2016_10.nc",
+   "bytes": 860415336,
+   "mtime_utc": "2026-07-21T12:22:35+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2016,
+   "month": 11,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2016\\era5_land_hourly_0p25_landpoints_2016_11.nc",
+   "bytes": 827044499,
+   "mtime_utc": "2026-07-21T13:08:04+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2016,
+   "month": 12,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2016\\era5_land_hourly_0p25_landpoints_2016_12.nc",
+   "bytes": 854020950,
+   "mtime_utc": "2026-07-21T13:56:11+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2017,
+   "month": 1,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2017\\era5_land_hourly_0p25_landpoints_2017_01.nc",
+   "bytes": 855385399,
+   "mtime_utc": "2026-07-21T14:56:05+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2017,
+   "month": 2,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2017\\era5_land_hourly_0p25_landpoints_2017_02.nc",
+   "bytes": 777385840,
+   "mtime_utc": "2026-07-21T15:41:33+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2017,
+   "month": 3,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2017\\era5_land_hourly_0p25_landpoints_2017_03.nc",
+   "bytes": 865860643,
+   "mtime_utc": "2026-07-21T16:43:26+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2017,
+   "month": 4,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2017\\era5_land_hourly_0p25_landpoints_2017_04.nc",
+   "bytes": 841004213,
+   "mtime_utc": "2026-07-21T17:59:38+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2017,
+   "month": 5,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2017\\era5_land_hourly_0p25_landpoints_2017_05.nc",
+   "bytes": 866489279,
+   "mtime_utc": "2026-07-21T19:22:38+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2017,
+   "month": 6,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2017\\era5_land_hourly_0p25_landpoints_2017_06.nc",
+   "bytes": 837141077,
+   "mtime_utc": "2026-07-21T20:19:09+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2017,
+   "month": 7,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2017\\era5_land_hourly_0p25_landpoints_2017_07.nc",
+   "bytes": 863692333,
+   "mtime_utc": "2026-07-21T21:34:11+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2017,
+   "month": 8,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2017\\era5_land_hourly_0p25_landpoints_2017_08.nc",
+   "bytes": 863293379,
+   "mtime_utc": "2026-07-22T05:46:08+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2017,
+   "month": 9,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2017\\era5_land_hourly_0p25_landpoints_2017_09.nc",
+   "bytes": 836909841,
+   "mtime_utc": "2026-07-22T07:21:23+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2017,
+   "month": 10,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2017\\era5_land_hourly_0p25_landpoints_2017_10.nc",
+   "bytes": 859782360,
+   "mtime_utc": "2026-07-22T08:29:45+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2017,
+   "month": 11,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2017\\era5_land_hourly_0p25_landpoints_2017_11.nc",
+   "bytes": 829926791,
+   "mtime_utc": "2026-07-22T10:00:43+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2017,
+   "month": 12,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2017\\era5_land_hourly_0p25_landpoints_2017_12.nc",
+   "bytes": 854206826,
+   "mtime_utc": "2026-07-22T11:17:12+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2018,
+   "month": 1,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2018\\era5_land_hourly_0p25_landpoints_2018_01.nc",
+   "bytes": 854542017,
+   "mtime_utc": "2026-07-22T12:40:36+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2018,
+   "month": 2,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2018\\era5_land_hourly_0p25_landpoints_2018_02.nc",
+   "bytes": 776850739,
+   "mtime_utc": "2026-07-22T13:50:31+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2018,
+   "month": 3,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2018\\era5_land_hourly_0p25_landpoints_2018_03.nc",
+   "bytes": 867302943,
+   "mtime_utc": "2026-07-22T15:17:03+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2018,
+   "month": 4,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2018\\era5_land_hourly_0p25_landpoints_2018_04.nc",
+   "bytes": 840333188,
+   "mtime_utc": "2026-07-22T16:11:47+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2018,
+   "month": 5,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2018\\era5_land_hourly_0p25_landpoints_2018_05.nc",
+   "bytes": 865316378,
+   "mtime_utc": "2026-07-22T17:12:36+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2018,
+   "month": 6,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2018\\era5_land_hourly_0p25_landpoints_2018_06.nc",
+   "bytes": 836015271,
+   "mtime_utc": "2026-07-22T18:21:35+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2018,
+   "month": 7,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2018\\era5_land_hourly_0p25_landpoints_2018_07.nc",
+   "bytes": 862643204,
+   "mtime_utc": "2026-07-22T19:25:07+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2018,
+   "month": 8,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2018\\era5_land_hourly_0p25_landpoints_2018_08.nc",
+   "bytes": 863079435,
+   "mtime_utc": "2026-07-22T20:24:03+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2018,
+   "month": 9,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2018\\era5_land_hourly_0p25_landpoints_2018_09.nc",
+   "bytes": 836751252,
+   "mtime_utc": "2026-07-22T21:35:07+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2018,
+   "month": 10,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2018\\era5_land_hourly_0p25_landpoints_2018_10.nc",
+   "bytes": 861430319,
+   "mtime_utc": "2026-07-22T22:32:25+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2018,
+   "month": 11,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2018\\era5_land_hourly_0p25_landpoints_2018_11.nc",
+   "bytes": 829960342,
+   "mtime_utc": "2026-07-22T23:38:30+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2018,
+   "month": 12,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2018\\era5_land_hourly_0p25_landpoints_2018_12.nc",
+   "bytes": 851826580,
+   "mtime_utc": "2026-07-23T01:08:14+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2019,
+   "month": 1,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2019\\era5_land_hourly_0p25_landpoints_2019_01.nc",
+   "bytes": 855525895,
+   "mtime_utc": "2026-07-23T02:37:29+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2019,
+   "month": 2,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2019\\era5_land_hourly_0p25_landpoints_2019_02.nc",
+   "bytes": 775683064,
+   "mtime_utc": "2026-07-23T04:13:33+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2019,
+   "month": 3,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2019\\era5_land_hourly_0p25_landpoints_2019_03.nc",
+   "bytes": 865099934,
+   "mtime_utc": "2026-07-23T06:27:57+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2019,
+   "month": 4,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2019\\era5_land_hourly_0p25_landpoints_2019_04.nc",
+   "bytes": 840297249,
+   "mtime_utc": "2026-07-23T08:32:00+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2019,
+   "month": 5,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2019\\era5_land_hourly_0p25_landpoints_2019_05.nc",
+   "bytes": 868634200,
+   "mtime_utc": "2026-07-23T11:18:10+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2019,
+   "month": 6,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2019\\era5_land_hourly_0p25_landpoints_2019_06.nc",
+   "bytes": 838363129,
+   "mtime_utc": "2026-07-23T13:44:37+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2019,
+   "month": 7,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2019\\era5_land_hourly_0p25_landpoints_2019_07.nc",
+   "bytes": 863081958,
+   "mtime_utc": "2026-07-23T15:40:26+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2019,
+   "month": 8,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2019\\era5_land_hourly_0p25_landpoints_2019_08.nc",
+   "bytes": 864152016,
+   "mtime_utc": "2026-07-23T17:28:41+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2019,
+   "month": 9,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2019\\era5_land_hourly_0p25_landpoints_2019_09.nc",
+   "bytes": 836080033,
+   "mtime_utc": "2026-07-23T19:28:51+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2019,
+   "month": 10,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2019\\era5_land_hourly_0p25_landpoints_2019_10.nc",
+   "bytes": 860098214,
+   "mtime_utc": "2026-07-23T20:50:39+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2019,
+   "month": 11,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2019\\era5_land_hourly_0p25_landpoints_2019_11.nc",
+   "bytes": 829343250,
+   "mtime_utc": "2026-07-23T22:11:07+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2019,
+   "month": 12,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2019\\era5_land_hourly_0p25_landpoints_2019_12.nc",
+   "bytes": 854917695,
+   "mtime_utc": "2026-07-23T23:26:16+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2020,
+   "month": 1,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2020\\era5_land_hourly_0p25_landpoints_2020_01.nc",
+   "bytes": 853793405,
+   "mtime_utc": "2026-07-24T00:49:53+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2020,
+   "month": 2,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2020\\era5_land_hourly_0p25_landpoints_2020_02.nc",
+   "bytes": 805812500,
+   "mtime_utc": "2026-07-24T02:07:22+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2020,
+   "month": 3,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2020\\era5_land_hourly_0p25_landpoints_2020_03.nc",
+   "bytes": 867947646,
+   "mtime_utc": "2026-07-24T03:21:06+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2020,
+   "month": 4,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2020\\era5_land_hourly_0p25_landpoints_2020_04.nc",
+   "bytes": 841608777,
+   "mtime_utc": "2026-07-24T04:27:42+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2020,
+   "month": 5,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2020\\era5_land_hourly_0p25_landpoints_2020_05.nc",
+   "bytes": 866177767,
+   "mtime_utc": "2026-07-24T05:41:31+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2020,
+   "month": 6,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2020\\era5_land_hourly_0p25_landpoints_2020_06.nc",
+   "bytes": 836747037,
+   "mtime_utc": "2026-07-24T07:18:58+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2020,
+   "month": 7,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2020\\era5_land_hourly_0p25_landpoints_2020_07.nc",
+   "bytes": 863628674,
+   "mtime_utc": "2026-07-24T08:46:16+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2020,
+   "month": 8,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2020\\era5_land_hourly_0p25_landpoints_2020_08.nc",
+   "bytes": 865107635,
+   "mtime_utc": "2026-07-24T10:30:45+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2020,
+   "month": 9,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2020\\era5_land_hourly_0p25_landpoints_2020_09.nc",
+   "bytes": 836580094,
+   "mtime_utc": "2026-07-24T12:17:02+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2020,
+   "month": 10,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2020\\era5_land_hourly_0p25_landpoints_2020_10.nc",
+   "bytes": 863715048,
+   "mtime_utc": "2026-07-24T14:27:13+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2020,
+   "month": 11,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2020\\era5_land_hourly_0p25_landpoints_2020_11.nc",
+   "bytes": 828717794,
+   "mtime_utc": "2026-07-24T17:17:50+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2020,
+   "month": 12,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2020\\era5_land_hourly_0p25_landpoints_2020_12.nc",
+   "bytes": 853532871,
+   "mtime_utc": "2026-07-24T20:00:52+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2021,
+   "month": 1,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2021\\era5_land_hourly_0p25_landpoints_2021_01.nc",
+   "bytes": 855877249,
+   "mtime_utc": "2026-07-24T23:19:48+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2021,
+   "month": 2,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2021\\era5_land_hourly_0p25_landpoints_2021_02.nc",
+   "bytes": 777497568,
+   "mtime_utc": "2026-07-25T01:53:35+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2021,
+   "month": 3,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2021\\era5_land_hourly_0p25_landpoints_2021_03.nc",
+   "bytes": 868840020,
+   "mtime_utc": "2026-07-25T03:57:39+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2021,
+   "month": 4,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2021\\era5_land_hourly_0p25_landpoints_2021_04.nc",
+   "bytes": 840654876,
+   "mtime_utc": "2026-07-25T05:55:26+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2021,
+   "month": 5,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2021\\era5_land_hourly_0p25_landpoints_2021_05.nc",
+   "bytes": 867846453,
+   "mtime_utc": "2026-07-25T07:56:14+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2021,
+   "month": 6,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2021\\era5_land_hourly_0p25_landpoints_2021_06.nc",
+   "bytes": 840773918,
+   "mtime_utc": "2026-07-25T10:09:50+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2021,
+   "month": 7,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2021\\era5_land_hourly_0p25_landpoints_2021_07.nc",
+   "bytes": 865469720,
+   "mtime_utc": "2026-07-25T12:05:43+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2021,
+   "month": 8,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2021\\era5_land_hourly_0p25_landpoints_2021_08.nc",
+   "bytes": 863523265,
+   "mtime_utc": "2026-07-25T14:22:18+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2021,
+   "month": 9,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2021\\era5_land_hourly_0p25_landpoints_2021_09.nc",
+   "bytes": 837948737,
+   "mtime_utc": "2026-07-25T15:56:52+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2021,
+   "month": 10,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2021\\era5_land_hourly_0p25_landpoints_2021_10.nc",
+   "bytes": 864044591,
+   "mtime_utc": "2026-07-25T17:45:04+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2021,
+   "month": 11,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2021\\era5_land_hourly_0p25_landpoints_2021_11.nc",
+   "bytes": 832214245,
+   "mtime_utc": "2026-07-25T20:05:16+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2021,
+   "month": 12,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2021\\era5_land_hourly_0p25_landpoints_2021_12.nc",
+   "bytes": 855366766,
+   "mtime_utc": "2026-07-25T21:48:10+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2022,
+   "month": 1,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2022\\era5_land_hourly_0p25_landpoints_2022_01.nc",
+   "bytes": 857996190,
+   "mtime_utc": "2026-07-25T23:30:25+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2022,
+   "month": 2,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2022\\era5_land_hourly_0p25_landpoints_2022_02.nc",
+   "bytes": 777353357,
+   "mtime_utc": "2026-07-26T01:09:32+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2022,
+   "month": 3,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2022\\era5_land_hourly_0p25_landpoints_2022_03.nc",
+   "bytes": 868357791,
+   "mtime_utc": "2026-07-26T02:39:14+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2022,
+   "month": 4,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2022\\era5_land_hourly_0p25_landpoints_2022_04.nc",
+   "bytes": 842927171,
+   "mtime_utc": "2026-07-26T04:12:40+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2022,
+   "month": 5,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2022\\era5_land_hourly_0p25_landpoints_2022_05.nc",
+   "bytes": 870375238,
+   "mtime_utc": "2026-07-26T06:51:33+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2022,
+   "month": 6,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2022\\era5_land_hourly_0p25_landpoints_2022_06.nc",
+   "bytes": 836411370,
+   "mtime_utc": "2026-07-26T08:50:11+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2022,
+   "month": 7,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2022\\era5_land_hourly_0p25_landpoints_2022_07.nc",
+   "bytes": 864682930,
+   "mtime_utc": "2026-07-26T10:36:37+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2022,
+   "month": 8,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2022\\era5_land_hourly_0p25_landpoints_2022_08.nc",
+   "bytes": 863246682,
+   "mtime_utc": "2026-07-26T12:28:49+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2022,
+   "month": 9,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2022\\era5_land_hourly_0p25_landpoints_2022_09.nc",
+   "bytes": 837903291,
+   "mtime_utc": "2026-07-26T13:33:14+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2022,
+   "month": 10,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2022\\era5_land_hourly_0p25_landpoints_2022_10.nc",
+   "bytes": 865363068,
+   "mtime_utc": "2026-07-26T14:56:36+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2022,
+   "month": 11,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2022\\era5_land_hourly_0p25_landpoints_2022_11.nc",
+   "bytes": 831842465,
+   "mtime_utc": "2026-07-26T16:05:00+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2022,
+   "month": 12,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2022\\era5_land_hourly_0p25_landpoints_2022_12.nc",
+   "bytes": 856753115,
+   "mtime_utc": "2026-07-26T17:17:23+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2023,
+   "month": 1,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2023\\era5_land_hourly_0p25_landpoints_2023_01.nc",
+   "bytes": 855584136,
+   "mtime_utc": "2026-07-26T18:58:25+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2023,
+   "month": 2,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2023\\era5_land_hourly_0p25_landpoints_2023_02.nc",
+   "bytes": 779167415,
+   "mtime_utc": "2026-07-26T20:04:18+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2023,
+   "month": 3,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2023\\era5_land_hourly_0p25_landpoints_2023_03.nc",
+   "bytes": 868278399,
+   "mtime_utc": "2026-07-26T21:22:11+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2023,
+   "month": 4,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2023\\era5_land_hourly_0p25_landpoints_2023_04.nc",
+   "bytes": 841068389,
+   "mtime_utc": "2026-07-26T22:39:50+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2023,
+   "month": 5,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2023\\era5_land_hourly_0p25_landpoints_2023_05.nc",
+   "bytes": 869619619,
+   "mtime_utc": "2026-07-26T23:49:15+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2023,
+   "month": 6,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2023\\era5_land_hourly_0p25_landpoints_2023_06.nc",
+   "bytes": 837943373,
+   "mtime_utc": "2026-07-27T00:56:06+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2023,
+   "month": 7,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2023\\era5_land_hourly_0p25_landpoints_2023_07.nc",
+   "bytes": 863782436,
+   "mtime_utc": "2026-07-27T02:20:09+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2023,
+   "month": 8,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2023\\era5_land_hourly_0p25_landpoints_2023_08.nc",
+   "bytes": 862796541,
+   "mtime_utc": "2026-07-27T03:25:57+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2023,
+   "month": 9,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2023\\era5_land_hourly_0p25_landpoints_2023_09.nc",
+   "bytes": 836216862,
+   "mtime_utc": "2026-07-27T04:32:27+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2023,
+   "month": 10,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2023\\era5_land_hourly_0p25_landpoints_2023_10.nc",
+   "bytes": 863323761,
+   "mtime_utc": "2026-07-27T05:39:54+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2023,
+   "month": 11,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2023\\era5_land_hourly_0p25_landpoints_2023_11.nc",
+   "bytes": 832969313,
+   "mtime_utc": "2026-07-27T07:05:29+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2023,
+   "month": 12,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2023\\era5_land_hourly_0p25_landpoints_2023_12.nc",
+   "bytes": 854754144,
+   "mtime_utc": "2026-07-27T08:39:52+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2024,
+   "month": 1,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2024\\era5_land_hourly_0p25_landpoints_2024_01.nc",
+   "bytes": 857606991,
+   "mtime_utc": "2026-07-27T09:51:43+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2024,
+   "month": 2,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2024\\era5_land_hourly_0p25_landpoints_2024_02.nc",
+   "bytes": 805097522,
+   "mtime_utc": "2026-07-27T10:59:52+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2024,
+   "month": 3,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2024\\era5_land_hourly_0p25_landpoints_2024_03.nc",
+   "bytes": 867066600,
+   "mtime_utc": "2026-07-27T12:18:42+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2024,
+   "month": 4,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2024\\era5_land_hourly_0p25_landpoints_2024_04.nc",
+   "bytes": 841724417,
+   "mtime_utc": "2026-07-27T13:59:45+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2024,
+   "month": 5,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2024\\era5_land_hourly_0p25_landpoints_2024_05.nc",
+   "bytes": 866888714,
+   "mtime_utc": "2026-07-27T16:20:40+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2024,
+   "month": 6,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2024\\era5_land_hourly_0p25_landpoints_2024_06.nc",
+   "bytes": 837514923,
+   "mtime_utc": "2026-07-27T17:55:42+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2024,
+   "month": 7,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2024\\era5_land_hourly_0p25_landpoints_2024_07.nc",
+   "bytes": 863303998,
+   "mtime_utc": "2026-07-27T19:27:14+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2024,
+   "month": 8,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2024\\era5_land_hourly_0p25_landpoints_2024_08.nc",
+   "bytes": 863147493,
+   "mtime_utc": "2026-07-27T20:41:46+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2024,
+   "month": 9,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2024\\era5_land_hourly_0p25_landpoints_2024_09.nc",
+   "bytes": 836220420,
+   "mtime_utc": "2026-07-27T21:53:32+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2024,
+   "month": 10,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2024\\era5_land_hourly_0p25_landpoints_2024_10.nc",
+   "bytes": 862534400,
+   "mtime_utc": "2026-07-27T23:16:03+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2024,
+   "month": 11,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2024\\era5_land_hourly_0p25_landpoints_2024_11.nc",
+   "bytes": 829598137,
+   "mtime_utc": "2026-07-28T00:42:40+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2024,
+   "month": 12,
+   "archive": "cey10_existing",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2015_2024\\monthly_packed_0p25_landpoints\\2024\\era5_land_hourly_0p25_landpoints_2024_12.nc",
+   "bytes": 855605618,
+   "mtime_utc": "2026-07-28T01:54:25+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2025,
+   "month": 1,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2025\\era5_land_hourly_0p25_landpoints_2025_01.nc",
+   "bytes": 1038493931,
+   "mtime_utc": "2026-09-25T10:16:02+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2025,
+   "month": 2,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2025\\era5_land_hourly_0p25_landpoints_2025_02.nc",
+   "bytes": 955192422,
+   "mtime_utc": "2026-09-25T12:06:24+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2025,
+   "month": 3,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2025\\era5_land_hourly_0p25_landpoints_2025_03.nc",
+   "bytes": 1051879463,
+   "mtime_utc": "2026-09-25T11:26:42+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2025,
+   "month": 4,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2025\\era5_land_hourly_0p25_landpoints_2025_04.nc",
+   "bytes": 1005542631,
+   "mtime_utc": "2026-09-25T10:57:16+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2025,
+   "month": 5,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2025\\era5_land_hourly_0p25_landpoints_2025_05.nc",
+   "bytes": 1043790194,
+   "mtime_utc": "2026-09-25T12:40:57+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2025,
+   "month": 6,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2025\\era5_land_hourly_0p25_landpoints_2025_06.nc",
+   "bytes": 1014465149,
+   "mtime_utc": "2026-09-25T13:45:21+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2025,
+   "month": 7,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2025\\era5_land_hourly_0p25_landpoints_2025_07.nc",
+   "bytes": 1042738873,
+   "mtime_utc": "2026-09-25T13:11:34+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2025,
+   "month": 8,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2025\\era5_land_hourly_0p25_landpoints_2025_08.nc",
+   "bytes": 1032177235,
+   "mtime_utc": "2026-09-25T14:15:44+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2025,
+   "month": 9,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2025\\era5_land_hourly_0p25_landpoints_2025_09.nc",
+   "bytes": 1005562405,
+   "mtime_utc": "2026-09-25T14:51:39+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2025,
+   "month": 10,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2025\\era5_land_hourly_0p25_landpoints_2025_10.nc",
+   "bytes": 1051721489,
+   "mtime_utc": "2026-09-25T15:39:39+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2025,
+   "month": 11,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2025\\era5_land_hourly_0p25_landpoints_2025_11.nc",
+   "bytes": 1011574546,
+   "mtime_utc": "2026-09-25T16:52:33+00:00",
+   "time_ok": true
+  },
+  {
+   "year": 2025,
+   "month": 12,
+   "archive": "cey20_extension",
+   "path": "E:\\ERA_DATA\\era5_land_hourly_monthly_2006_2025\\monthly_packed_0p25_landpoints\\2025\\era5_land_hourly_0p25_landpoints_2025_12.nc",
+   "bytes": 1027328343,
+   "mtime_utc": "2026-09-25T17:36:57+00:00",
+   "time_ok": true
+  }
+ ],
+ "note": "Read-only freeze. No outcome (selection, deviation, exposure) was computed."
+}

@@ -1,0 +1,14 @@
+{
+  "auth003_study.py": "18fc798e24fa5c2d19f457dc3f9c6ec091be80f1d0de0c4cfe78f60b27ae6092",
+  "auth003_s3.py": "d387ab473e866ff3b6cf4f28ca43437de63c1a50d79cacb773c9514127ce5781",
+  "auth003_s3_hourly.py": "de92355e61890d2abcc3d6bfab026cc5983d8e4c8737a4c4202ac7900eed32c6",
+  "auth003_s3_d4s.py": "d7d349b6228508b04686027401584b53ea8bdd5fdca09bbc1fcb73b6ae1e3c52",
+  "auth003_s4_fs.py": "d8210af6dfb210fe367457f41ac0821f7c734cc109cce64f16fe5881408fd5a4",
+  "s3_targets_monthly.csv": "8ee7925a469b2793f40b57e7304aae05e1070f1cced7760df72ed37951fcac98",
+  "_source": {
+    "code": "research/AUTH-003-S3-run @ 5ae54b67",
+    "s3_targets_monthly.csv": "task/AUTH-003-tmy-study @ 96b2e87",
+    "normalisation": "LF",
+    "spec": "04-fs-exploratory-spec.md @ 07cc28dd"
+  }
+}

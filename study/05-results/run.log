@@ -1,0 +1,13 @@
+month 01 done
+month 02 done
+month 03 done
+month 04 done
+month 05 done
+month 06 done
+month 07 done
+month 08 done
+month 09 done
+month 10 done
+month 11 done
+month 12 done
+{"a3_levels_cey20": {"Singapore": "tau5", "Mumbai": "tau4", "Dubai": "tau3", "Houston": "tau4", "Frankfurt": "tau4", "London": "tau4", "Seattle": "tau4", "San Francisco": "tau4", "Helsinki": "tau4", "Fairbanks": "tau3", "Chicago": "tau3", "Phoenix": "tau3", "Denver": "tau3", "Quito": "tau5"}, "region_points": {"Singapore": 37, "Dubai": 50, "Houston": 62, "Frankfurt": 81, "Helsinki": 55, "Fairbanks": 81, "Iqaluit": 72}}

@@ -1,0 +1,17 @@
+{
+ "auth003_s4ext_compare.py": "b1c14652d815f6bf72060bce4adab4814601a4a742ee21d2d1be2de1dba138a5",
+ "auth003_s3.py": "d387ab473e866ff3b6cf4f28ca43437de63c1a50d79cacb773c9514127ce5781",
+ "auth003_study.py": "18fc798e24fa5c2d19f457dc3f9c6ec091be80f1d0de0c4cfe78f60b27ae6092",
+ "_source": {
+  "code": "research/AUTH-003-S10-california @ c59f349f",
+  "normalisation": "LF",
+  "spec": "08-external-comparison-spec.md r3 + A1, A2, A2.1, A3; input inventory 08-input-inventory-freeze.json",
+  "copilot": [
+   "auth-003-copilot-fa6a181b25eb",
+   "auth-003-copilot-c0bf44765c1f",
+   "GO: re-check 2",
+   "A3: code fix correct; verification extended by summary check"
+  ],
+  "supersedes": "08-s4ext-pin.json (run1)"
+ }
+}

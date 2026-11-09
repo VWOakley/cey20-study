@@ -1,0 +1,36 @@
+{
+  "temperature_c": {
+    "inner_joins": 3900512,
+    "natural_steps": 8510208,
+    "natural_p99": 3.119999885559082,
+    "natural_p999": 4.75,
+    "join_median": 2.8199996948242188,
+    "natural_median": 0.37000274658203125,
+    "join_share_above_natural_p99": 0.466517472577959,
+    "join_share_above_5c": 0.3042964615927345,
+    "natural_share_above_5c": 0.0006703713939776795,
+    "join_share_above_10c": 0.09310470010090983,
+    "natural_share_above_10c": 1.1750594110038204e-07,
+    "join_max": 46.82999801635742,
+    "wrap_share_above_natural_p99": 0.4618857729446801
+  },
+  "dewpoint_c": {
+    "inner_joins": 3900512,
+    "natural_steps": 8510208,
+    "natural_p99": 2.1399993896484375,
+    "natural_p999": 4.250000094532966,
+    "join_median": 3.280000686645508,
+    "natural_median": 0.22999989986419678,
+    "join_share_above_natural_p99": 0.619137179939454,
+    "join_share_above_5c": 0.3580576088472488,
+    "natural_share_above_5c": 0.0005342995141834372,
+    "join_share_above_10c": 0.12344046114971573,
+    "natural_share_above_10c": 1.903596245826189e-05,
+    "join_max": 47.959999084472656,
+    "wrap_share_above_natural_p99": 0.6167539030773396
+  },
+  "study_points_match": {
+    "compared": 336,
+    "max_abs_diff": 1.7881393432617188e-06
+  }
+}

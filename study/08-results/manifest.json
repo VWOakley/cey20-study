@@ -1,0 +1,36 @@
+{
+ "command": "auth003_s4ext_compare",
+ "started_utc": "2026-11-07T13:18:44+00:00",
+ "finished_utc": "2026-11-07T14:38:51+00:00",
+ "pin": {
+  "auth003_s4ext_compare.py": "9060971d38db0ffc9478a99c8d7bba33589df70ace8a977fc1d9e808b5c84f81",
+  "auth003_s3.py": "d387ab473e866ff3b6cf4f28ca43437de63c1a50d79cacb773c9514127ce5781",
+  "auth003_study.py": "18fc798e24fa5c2d19f457dc3f9c6ec091be80f1d0de0c4cfe78f60b27ae6092",
+  "_source": {
+   "code": "research/AUTH-003-S10-california @ 5369f2e4",
+   "normalisation": "LF",
+   "spec": "08-external-comparison-spec.md r3 + A1, A2, A2.1, A3, A3.1; input inventory 08-input-inventory-freeze.json",
+   "copilot": [
+    "auth-003-copilot-fa6a181b25eb",
+    "auth-003-copilot-c0bf44765c1f",
+    "GO: re-check 2",
+    "A3: code fix correct; verification extended by summary check",
+    "A3.1: GO"
+   ],
+   "supersedes": "08-s4ext-pin-A3.json (run2)"
+  }
+ },
+ "s10_dataset_sha256": "2c3bd91f33b0ff048edd52a59b504b6c113c93d1ecb6c97981c122ffd29da3bb",
+ "freeze_input_inventory_sha256": "75cfecfce8f28a8a9550ae31806df3932185bc1b49ca26fa7aba6b5e4b9f2670",
+ "tmy_inventory_sha256": "5cc0adc27e3c748c7504713d9b6f68eeee1b5db040bf7dabc0fd8930d93172b6",
+ "input_inventory_freeze_sha256": "76e2afcc9db9b1184d96cc041a4e6c08d3cb8773f9df1cda8bd627ca168312e7",
+ "prepared_stations_sha256": "39c17e6f7e5530dde38121cc5b2be3ef18ef6ae5d6aa2e6bb4e8b267e4b14c2a",
+ "outputs_sha256": {
+  "stations.csv": "1db418770efdf0a88566aa5e49d3eba5b00a48a47f61567a6f4317c28a9b73bf",
+  "annual.csv": "fdc1c93910dfcec30d22ca6a49d3fbfdf9971384f15481b1db053b0cef44067a",
+  "monthly.csv": "5051e213ec8930aff4dc34822bb9bbfc63289f58ee604bbba25540278f31914d",
+  "decomposition.csv": "d6faedb5c9a4a7c27c68491e5d363179070d9102c4f13f784c340b18815fc2c8",
+  "conventions.csv": "3303394364b9a6b1af95707f53175ff9063f1e05feb7dd872039626ba9cedd5a",
+  "summary.json": "e5496831c0aa921aeeccb3cb91583f52d3b4371e520b9049bcc13854ca6df87d"
+ }
+}

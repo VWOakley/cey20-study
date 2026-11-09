@@ -1,0 +1,15 @@
+point,statistic,cey20,years_min,years_median,years_max,percentile,n_years,level_cey20,years_same_level
+Singapore,tow_hours,7003,6490.0,7037.5,7341.0,40.0,20,tau5,20
+Mumbai,tow_hours,4196,3783.0,4172.0,4641.0,55.00000000000001,20,tau4,20
+Dubai,tow_hours,1498,1178.0,1543.0,1718.0,40.0,20,tau3,20
+Houston,tow_hours,4301,3082.0,4302.5,5052.0,50.0,20,tau4,20
+Frankfurt,tow_hours,3621,3031.0,3621.5,4467.0,50.0,20,tau4,20
+London,tow_hours,4767,4361.0,4823.0,5193.0,45.0,20,tau4,20
+Seattle,tow_hours,4776,4217.0,4831.5,5343.0,40.0,20,tau4,20
+San Francisco,tow_hours,3888,3380.0,3900.0,4412.0,45.0,20,tau4,20
+Helsinki,tow_hours,3743,3082.0,3901.0,4890.0,45.0,20,tau4,20
+Fairbanks,tow_hours,1056,796.0,1072.5,1577.0,50.0,20,tau3,20
+Chicago,tow_hours,2216,1856.0,2407.0,3095.0,25.0,20,tau3,13
+Phoenix,tow_hours,401,112.0,497.5,892.0,15.0,20,tau3,19
+Denver,tow_hours,689,377.0,791.0,1113.0,25.0,20,tau3,20
+Quito,tow_hours,5736,4723.0,5671.5,6384.0,65.0,20,tau5,14

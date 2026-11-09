@@ -1,0 +1,112 @@
+{
+ "nominal_share_pct": {
+  "temperature_mean_c": 14.3,
+  "temperature_p95_c": 7.6,
+  "relative_humidity_mean_pct": 14.3,
+  "relative_humidity_p90_pct": 9.5,
+  "absolute_humidity_mean_g_m3": 9.5,
+  "dewpoint_depression_p10_c": 7.6,
+  "hours_rh_ge_80": 11.4,
+  "hours_rh_ge_90": 9.5,
+  "hours_dewpoint_depression_le_2c": 9.5,
+  "daily_temperature_range_mean_c": 6.7
+ },
+ "effective_share_pct": {
+  "singapore": {
+   "temperature_mean_c": 4.9,
+   "temperature_p95_c": 2.6,
+   "relative_humidity_mean_pct": 8.0,
+   "relative_humidity_p90_pct": 2.4,
+   "absolute_humidity_mean_g_m3": 3.7,
+   "dewpoint_depression_p10_c": 0.9,
+   "hours_rh_ge_80": 20.3,
+   "hours_rh_ge_90": 27.7,
+   "hours_dewpoint_depression_le_2c": 27.4,
+   "daily_temperature_range_mean_c": 2.0
+  },
+  "dubai": {
+   "temperature_mean_c": 8.3,
+   "temperature_p95_c": 4.7,
+   "relative_humidity_mean_pct": 18.0,
+   "relative_humidity_p90_pct": 12.2,
+   "absolute_humidity_mean_g_m3": 7.9,
+   "dewpoint_depression_p10_c": 4.8,
+   "hours_rh_ge_80": 15.0,
+   "hours_rh_ge_90": 11.2,
+   "hours_dewpoint_depression_le_2c": 12.6,
+   "daily_temperature_range_mean_c": 5.4
+  },
+  "houston": {
+   "temperature_mean_c": 9.6,
+   "temperature_p95_c": 4.3,
+   "relative_humidity_mean_pct": 14.0,
+   "relative_humidity_p90_pct": 3.4,
+   "absolute_humidity_mean_g_m3": 5.8,
+   "dewpoint_depression_p10_c": 1.2,
+   "hours_rh_ge_80": 17.6,
+   "hours_rh_ge_90": 20.1,
+   "hours_dewpoint_depression_le_2c": 20.6,
+   "daily_temperature_range_mean_c": 3.3
+  },
+  "seattle": {
+   "temperature_mean_c": 11.5,
+   "temperature_p95_c": 7.0,
+   "relative_humidity_mean_pct": 11.5,
+   "relative_humidity_p90_pct": 3.2,
+   "absolute_humidity_mean_g_m3": 3.6,
+   "dewpoint_depression_p10_c": 1.0,
+   "hours_rh_ge_80": 17.1,
+   "hours_rh_ge_90": 20.3,
+   "hours_dewpoint_depression_le_2c": 20.8,
+   "daily_temperature_range_mean_c": 4.1
+  },
+  "frankfurt": {
+   "temperature_mean_c": 13.3,
+   "temperature_p95_c": 7.2,
+   "relative_humidity_mean_pct": 13.2,
+   "relative_humidity_p90_pct": 5.3,
+   "absolute_humidity_mean_g_m3": 3.7,
+   "dewpoint_depression_p10_c": 1.8,
+   "hours_rh_ge_80": 18.0,
+   "hours_rh_ge_90": 16.0,
+   "hours_dewpoint_depression_le_2c": 18.1,
+   "daily_temperature_range_mean_c": 3.4
+  },
+  "london": {
+   "temperature_mean_c": 11.8,
+   "temperature_p95_c": 6.6,
+   "relative_humidity_mean_pct": 9.9,
+   "relative_humidity_p90_pct": 3.6,
+   "absolute_humidity_mean_g_m3": 3.7,
+   "dewpoint_depression_p10_c": 1.1,
+   "hours_rh_ge_80": 17.4,
+   "hours_rh_ge_90": 20.7,
+   "hours_dewpoint_depression_le_2c": 22.2,
+   "daily_temperature_range_mean_c": 2.9
+  },
+  "san-francisco": {
+   "temperature_mean_c": 8.6,
+   "temperature_p95_c": 6.6,
+   "relative_humidity_mean_pct": 16.0,
+   "relative_humidity_p90_pct": 3.9,
+   "absolute_humidity_mean_g_m3": 3.7,
+   "dewpoint_depression_p10_c": 1.3,
+   "hours_rh_ge_80": 18.5,
+   "hours_rh_ge_90": 17.3,
+   "hours_dewpoint_depression_le_2c": 19.3,
+   "daily_temperature_range_mean_c": 4.8
+  },
+  "mumbai": {
+   "temperature_mean_c": 6.4,
+   "temperature_p95_c": 3.5,
+   "relative_humidity_mean_pct": 12.6,
+   "relative_humidity_p90_pct": 5.4,
+   "absolute_humidity_mean_g_m3": 5.5,
+   "dewpoint_depression_p10_c": 2.0,
+   "hours_rh_ge_80": 19.6,
+   "hours_rh_ge_90": 19.5,
+   "hours_dewpoint_depression_le_2c": 21.7,
+   "daily_temperature_range_mean_c": 3.7
+  }
+ }
+}

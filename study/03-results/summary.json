@@ -1,0 +1,43 @@
+{
+  "target1_annual": {
+    "checked": 42,
+    "failed": 9,
+    "worst": {
+      "point": "Phoenix",
+      "metric": "hours_rh_ge_80",
+      "h_selected": 404.0,
+      "h_ref": 511.95,
+      "signed_h": -107.94999999999999,
+      "abs_h": 107.94999999999999,
+      "rel_error": 0.210860435589413,
+      "pass": false
+    }
+  },
+  "target2_monthly_t": {
+    "checked": 168,
+    "failed": 60,
+    "worst": {
+      "point": "Phoenix",
+      "month": 10,
+      "selected_year": 2016,
+      "d_temperature_c": 2.116119384765625,
+      "d_rh_pct": -2.052600860595703,
+      "pass_t": false,
+      "pass_rh": false
+    }
+  },
+  "target2_monthly_rh": {
+    "checked": 168,
+    "failed": 14,
+    "worst": {
+      "point": "Phoenix",
+      "month": 2,
+      "selected_year": 2007,
+      "d_temperature_c": -0.6148557662963867,
+      "d_rh_pct": 4.222087860107422,
+      "pass_t": false,
+      "pass_rh": false
+    }
+  },
+  "not_produced": "held-out hourly diagnostics (joint T/RH, spells, drying gaps, month-boundary jumps)"
+}

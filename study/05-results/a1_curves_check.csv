@@ -1,0 +1,15 @@
+point,n,grid_ok,exceedance_ok,monotone,d_c,d_matches_a1,argmax_k,argmax_p,cey20_levels_outside_band,pooled_levels_outside_band
+Singapore,8760,True,True,True,0.899993,True,1,0.000057,0,0
+Mumbai,8760,True,True,True,0.915083,True,8759,0.999829,0,0
+Dubai,8760,True,True,True,0.850206,True,91,0.010331,0,0
+Houston,8760,True,True,True,8.849983,True,1,0.000057,0,0
+Frankfurt,8760,True,True,True,7.984999,True,1,0.000057,0,0
+London,8760,True,True,True,5.775005,True,8760,0.999943,0,0
+Seattle,8760,True,True,True,5.485000,True,8760,0.999943,0,0
+San Francisco,8760,True,True,True,2.660204,True,8757,0.999600,0,0
+Helsinki,8760,True,True,True,6.304999,True,1,0.000057,0,0
+Fairbanks,8760,True,True,True,3.320419,True,31,0.003482,0,0
+Chicago,8760,True,True,True,6.365009,True,1,0.000057,0,0
+Phoenix,8760,True,True,True,1.989987,True,1,0.000057,0,0
+Denver,8760,True,True,True,4.940033,True,10,0.001084,20,0
+Quito,8760,True,True,True,0.564982,True,8755,0.999372,0,0

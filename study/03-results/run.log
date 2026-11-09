@@ -1,0 +1,13 @@
+month 01 done
+month 02 done
+month 03 done
+month 04 done
+month 05 done
+month 06 done
+month 07 done
+month 08 done
+month 09 done
+month 10 done
+month 11 done
+month 12 done
+{"target1_annual": {"checked": 42, "failed": 9}, "target2_monthly_t": {"checked": 168, "failed": 60}, "target2_monthly_rh": {"checked": 168, "failed": 14}}
