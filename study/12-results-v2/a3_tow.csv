@@ -1,0 +1,29 @@
+point,statistic,cey20,years_min,years_median,years_max,percentile,n_years,level_cey20,years_same_level,version
+Singapore,tow_hours,7003,6490.0,7037.5,7341.0,40.0,20,tau5,20,v1
+Mumbai,tow_hours,4196,3783.0,4172.0,4641.0,55.00000000000001,20,tau4,20,v1
+Dubai,tow_hours,1498,1178.0,1543.0,1718.0,40.0,20,tau3,20,v1
+Houston,tow_hours,4301,3082.0,4302.5,5052.0,50.0,20,tau4,20,v1
+Frankfurt,tow_hours,3621,3031.0,3621.5,4467.0,50.0,20,tau4,20,v1
+London,tow_hours,4767,4361.0,4823.0,5193.0,45.0,20,tau4,20,v1
+Seattle,tow_hours,4776,4217.0,4831.5,5343.0,40.0,20,tau4,20,v1
+San Francisco,tow_hours,3888,3380.0,3900.0,4412.0,45.0,20,tau4,20,v1
+Helsinki,tow_hours,3743,3082.0,3901.0,4890.0,45.0,20,tau4,20,v1
+Fairbanks,tow_hours,1056,796.0,1072.5,1577.0,50.0,20,tau3,20,v1
+Chicago,tow_hours,2216,1856.0,2407.0,3095.0,25.0,20,tau3,13,v1
+Phoenix,tow_hours,401,112.0,497.5,892.0,15.0,20,tau3,19,v1
+Denver,tow_hours,689,377.0,791.0,1113.0,25.0,20,tau3,20,v1
+Quito,tow_hours,5736,4723.0,5671.5,6384.0,65.0,20,tau5,14,v1
+Singapore,tow_hours,7002,6490.0,7037.5,7341.0,40.0,20,tau5,20,v2
+Mumbai,tow_hours,4197,3783.0,4172.0,4641.0,55.00000000000001,20,tau4,20,v2
+Dubai,tow_hours,1492,1178.0,1543.0,1718.0,40.0,20,tau3,20,v2
+Houston,tow_hours,4284,3082.0,4302.5,5052.0,50.0,20,tau4,20,v2
+Frankfurt,tow_hours,3616,3031.0,3621.5,4467.0,50.0,20,tau4,20,v2
+London,tow_hours,4769,4361.0,4823.0,5193.0,45.0,20,tau4,20,v2
+Seattle,tow_hours,4777,4217.0,4831.5,5343.0,40.0,20,tau4,20,v2
+San Francisco,tow_hours,3883,3380.0,3900.0,4412.0,45.0,20,tau4,20,v2
+Helsinki,tow_hours,3735,3082.0,3901.0,4890.0,45.0,20,tau4,20,v2
+Fairbanks,tow_hours,1053,796.0,1072.5,1577.0,45.0,20,tau3,20,v2
+Chicago,tow_hours,2203,1856.0,2407.0,3095.0,25.0,20,tau3,13,v2
+Phoenix,tow_hours,394,112.0,497.5,892.0,15.0,20,tau3,19,v2
+Denver,tow_hours,692,377.0,791.0,1113.0,30.0,20,tau3,20,v2
+Quito,tow_hours,5737,4723.0,5671.5,6384.0,65.0,20,tau5,14,v2

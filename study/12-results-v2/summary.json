@@ -1,0 +1,211 @@
+{
+  "label": "amendment V2 (outcome-informed); descriptive; in-sample",
+  "target1_failed": {
+    "v1": 9,
+    "v2": 9
+  },
+  "target2_t_failed": {
+    "v1": 60,
+    "v2": 59
+  },
+  "target2_rh_failed": {
+    "v1": 14,
+    "v2": 15
+  },
+  "d1_rank1_hellinger": {
+    "v1": 9,
+    "v2": 9
+  },
+  "d4": {
+    "v1": {
+      "inner_cross_year": {
+        "temperature_c": {
+          "n": 150,
+          "J_above_ref_p99": 68,
+          "J_above_ref_p99_midnight": 101,
+          "M_above_ref_p99": 76,
+          "M_above_ref_p99_midnight": 128
+        },
+        "dewpoint_c": {
+          "n": 150,
+          "J_above_ref_p99": 85,
+          "J_above_ref_p99_midnight": 95,
+          "M_above_ref_p99": 95,
+          "M_above_ref_p99_midnight": 113
+        },
+        "rh_pct": {
+          "n": 150,
+          "J_above_ref_p99": 55,
+          "J_above_ref_p99_midnight": 84,
+          "M_above_ref_p99": 65,
+          "M_above_ref_p99_midnight": 112
+        },
+        "surface_pressure_pa": {
+          "n": 150,
+          "J_above_ref_p99": 125,
+          "J_above_ref_p99_midnight": 128,
+          "M_above_ref_p99": 126,
+          "M_above_ref_p99_midnight": 134
+        }
+      },
+      "inner_same_year": {
+        "temperature_c": {
+          "n": 4,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 0,
+          "M_above_ref_p99": 0,
+          "M_above_ref_p99_midnight": 2
+        },
+        "dewpoint_c": {
+          "n": 4,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 0,
+          "M_above_ref_p99": 0,
+          "M_above_ref_p99_midnight": 0
+        },
+        "rh_pct": {
+          "n": 4,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 0,
+          "M_above_ref_p99": 0,
+          "M_above_ref_p99_midnight": 0
+        },
+        "surface_pressure_pa": {
+          "n": 4,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 0,
+          "M_above_ref_p99": 0,
+          "M_above_ref_p99_midnight": 0
+        }
+      },
+      "wrap": {
+        "temperature_c": {
+          "n": 14,
+          "J_above_ref_p99": 7,
+          "J_above_ref_p99_midnight": 9,
+          "M_above_ref_p99": 8,
+          "M_above_ref_p99_midnight": 10
+        },
+        "dewpoint_c": {
+          "n": 14,
+          "J_above_ref_p99": 11,
+          "J_above_ref_p99_midnight": 10,
+          "M_above_ref_p99": 12,
+          "M_above_ref_p99_midnight": 13
+        },
+        "rh_pct": {
+          "n": 14,
+          "J_above_ref_p99": 4,
+          "J_above_ref_p99_midnight": 6,
+          "M_above_ref_p99": 4,
+          "M_above_ref_p99_midnight": 9
+        },
+        "surface_pressure_pa": {
+          "n": 14,
+          "J_above_ref_p99": 8,
+          "J_above_ref_p99_midnight": 10,
+          "M_above_ref_p99": 10,
+          "M_above_ref_p99_midnight": 12
+        }
+      }
+    },
+    "v2": {
+      "inner_cross_year": {
+        "temperature_c": {
+          "n": 150,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 1,
+          "M_above_ref_p99": 14,
+          "M_above_ref_p99_midnight": 86
+        },
+        "dewpoint_c": {
+          "n": 150,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 1,
+          "M_above_ref_p99": 26,
+          "M_above_ref_p99_midnight": 48
+        },
+        "rh_pct": {
+          "n": 150,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 3,
+          "M_above_ref_p99": 12,
+          "M_above_ref_p99_midnight": 67
+        },
+        "surface_pressure_pa": {
+          "n": 150,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 0,
+          "M_above_ref_p99": 39,
+          "M_above_ref_p99_midnight": 81
+        }
+      },
+      "inner_same_year": {
+        "temperature_c": {
+          "n": 4,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 0,
+          "M_above_ref_p99": 0,
+          "M_above_ref_p99_midnight": 2
+        },
+        "dewpoint_c": {
+          "n": 4,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 0,
+          "M_above_ref_p99": 0,
+          "M_above_ref_p99_midnight": 0
+        },
+        "rh_pct": {
+          "n": 4,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 0,
+          "M_above_ref_p99": 0,
+          "M_above_ref_p99_midnight": 0
+        },
+        "surface_pressure_pa": {
+          "n": 4,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 0,
+          "M_above_ref_p99": 0,
+          "M_above_ref_p99_midnight": 0
+        }
+      },
+      "wrap": {
+        "temperature_c": {
+          "n": 14,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 0,
+          "M_above_ref_p99": 1,
+          "M_above_ref_p99_midnight": 5
+        },
+        "dewpoint_c": {
+          "n": 14,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 0,
+          "M_above_ref_p99": 1,
+          "M_above_ref_p99_midnight": 5
+        },
+        "rh_pct": {
+          "n": 14,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 0,
+          "M_above_ref_p99": 0,
+          "M_above_ref_p99_midnight": 5
+        },
+        "surface_pressure_pa": {
+          "n": 14,
+          "J_above_ref_p99": 0,
+          "J_above_ref_p99_midnight": 0,
+          "M_above_ref_p99": 4,
+          "M_above_ref_p99_midnight": 9
+        }
+      }
+    }
+  },
+  "d5_target1_failed": {
+    "baseline": 9,
+    "local_solar_day": 9,
+    "humidity_mixed_ice": 8
+  },
+  "gates": "passed (gates.json)"
+}

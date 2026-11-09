@@ -1,0 +1,11 @@
+**Verdict: APPROVE** C1–C3 as scientific implementation clarifications, based on the supplied text. No replacement text is needed.
+
+**C1 — Smooth both D5 variants.** This is the consistent reading of “D5 repeated on v2” with “input is the v2 product series.” Each variant should undergo the same construction procedure as the baseline: assemble its selected source months, then apply the pinned smoothing function using its own source years and resulting eligibility decisions. Comparing a smoothed baseline against unsmoothed variants would mix the convention change with a difference in construction procedure.
+
+“Same smoothing” means the same algorithm and parameters, **not the baseline’s eligibility mask**. The mixed-ice variant’s counts and reference must both use its stated humidity convention, as specified. Keeping sensitivity, LOYO and FS unsmoothed respects their separate frozen scope.
+
+**C2 — The gate substitution is appropriate.** Equality to the unsmoothed reconstruction cannot remain the centre acceptance condition for a deliberately smoothed product. Exact preservation outside eligible support plus exact reproduction inside it provides the appropriate replacement. Reading regional envelopes from the v2 files, while retaining actual-year centre context, is consistent with evaluating v2.
+
+**C3 — The eligibility-based masks are appropriate.** Separate masks for T/Td and pressure correctly accommodate different eligible windows. Skipped windows remain subject to exact preservation. Twelve boundaries with twelve positions each give a maximum union of 144 positions per point, including cyclic treatment of December–January. Applying the Td ≤ T acceptance gate within the T/Td mask avoids making pre-existing, unchanged violations a new smoothing failure; reporting those outside remains appropriate.
+
+This approves the stated scientific design for pinning and one evaluation run. It does not independently certify the unseen runner or establish agreement with frozen wording beyond the excerpts supplied.

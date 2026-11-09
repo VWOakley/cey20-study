@@ -1,0 +1,47 @@
+{
+  "temperature_c": {
+    "outside_support_mismatches": 0,
+    "inside_support_mismatches_vs_reproduction": 0,
+    "modified_positions": 2100,
+    "modified_per_point_max": 144,
+    "nonfinite": 0
+  },
+  "dewpoint_c": {
+    "outside_support_mismatches": 0,
+    "inside_support_mismatches_vs_reproduction": 0,
+    "modified_positions": 2100,
+    "modified_per_point_max": 144,
+    "nonfinite": 0
+  },
+  "surface_pressure_pa": {
+    "outside_support_mismatches": 0,
+    "inside_support_mismatches_vs_reproduction": 0,
+    "modified_positions": 2076,
+    "modified_per_point_max": 144,
+    "nonfinite": 0
+  },
+  "union": {
+    "modified_positions": 2100,
+    "modified_per_point_max": 144,
+    "support_per_point": 144
+  },
+  "td_gt_t_inside_support": 0,
+  "td_gt_t_outside_support_per_point": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "td_minus_t_outside_support_max": 0.010000228881835938
+}

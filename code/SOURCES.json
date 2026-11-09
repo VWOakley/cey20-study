@@ -94,5 +94,11 @@
   "source_commit": "073d2b8e",
   "source_path": "backend/tests/test_auth003_s5_applications.py",
   "sha256_lf": "71dca771a9947f4923ee852d857904eb9d3388a8eacb8f53516f098301dd92a1"
+ },
+ {
+  "path": "code/backend/tests/test_auth003_v2_eval.py",
+  "source_commit": "7862bdee",
+  "source_path": "backend/tests/test_auth003_v2_eval.py",
+  "sha256_lf": "47689dfe37e3f22bd16e914bbad6ca8b2d7eabd943f3793829fc1ba5af8529e7"
  }
 ]

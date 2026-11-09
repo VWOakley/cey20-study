@@ -1,0 +1,170 @@
+{
+  "command": "auth003_v2_eval",
+  "started_utc": "2026-11-09T15:26:10+00:00",
+  "finished_utc": "2026-11-09T17:19:53+00:00",
+  "code_sha": "7862bdee540c8fcf29961990a931455293e68373",
+  "freeze": "..\\climetry-auth003-tmy\\docs\\research\\auth003-tmy\\03-freeze.json",
+  "freeze_code_sha": "00efaf6a4626a727ae0332b8ce8f84a4a9301753",
+  "freeze_input_inventory_sha256": "75cfecfce8f28a8a9550ae31806df3932185bc1b49ca26fa7aba6b5e4b9f2670",
+  "points": [
+    {
+      "name": "Singapore",
+      "index": 197100
+    },
+    {
+      "name": "Mumbai",
+      "index": 172592
+    },
+    {
+      "name": "Dubai",
+      "index": 160629
+    },
+    {
+      "name": "Houston",
+      "index": 149373
+    },
+    {
+      "name": "Frankfurt",
+      "index": 93901
+    },
+    {
+      "name": "London",
+      "index": 88830
+    },
+    {
+      "name": "Seattle",
+      "index": 101891
+    },
+    {
+      "name": "San Francisco",
+      "index": 129685
+    },
+    {
+      "name": "Helsinki",
+      "index": 60358
+    },
+    {
+      "name": "Fairbanks",
+      "index": 41781
+    },
+    {
+      "name": "Chicago",
+      "index": 118652
+    },
+    {
+      "name": "Phoenix",
+      "index": 140065
+    },
+    {
+      "name": "Denver",
+      "index": 124689
+    },
+    {
+      "name": "Quito",
+      "index": 199071
+    }
+  ],
+  "input_hashes": "..\\climetry-auth003-tmy\\docs\\research\\auth003-tmy\\03-freeze-input-sha256.json",
+  "pin": "..\\climetry-auth003-tmy\\docs\\research\\auth003-tmy\\12-v2-pin.json",
+  "s3_monthly": "..\\climetry-auth003-tmy\\docs\\research\\auth003-tmy\\03-results\\targets_monthly.csv",
+  "product_root": "E:\\ERA_DATA\\cey_2006_2025_v2",
+  "product_inputs": {
+    "recorded_utc": "2026-11-09T14:40:52+00:00",
+    "product": "CEY20 v2 cey_2006_2025 (released, v2-month-interface-smoothing, generating commit 388cfdb4)",
+    "hourly_manifest.json": {
+      "sha256": "59d00ad30b0d13f78920148816bee2adb60fc6dca31bafd6a99ad228c6e3309f"
+    },
+    "month_files": {
+      "cey20_landpoints_month01.nc": {
+        "bytes": 1448864888,
+        "mtime_utc": "2026-11-01T09:59:48+00:00",
+        "sha256": "a8a3c48f5c005bef6531e0332a296f6cc3e1ce339d6012672085e55c59745545"
+      },
+      "cey20_landpoints_month02.nc": {
+        "bytes": 1308172847,
+        "mtime_utc": "2026-11-01T10:01:05+00:00",
+        "sha256": "96ff0a353e8ee32968587066a28ebe1d23465eafc32c728c928b7d2d231dd181"
+      },
+      "cey20_landpoints_month03.nc": {
+        "bytes": 1456103439,
+        "mtime_utc": "2026-11-01T10:02:30+00:00",
+        "sha256": "62830bdd07299d9135218e74a36c22b3b24e6e30ead243412ae703f7f2a7d511"
+      },
+      "cey20_landpoints_month04.nc": {
+        "bytes": 1419238922,
+        "mtime_utc": "2026-11-01T10:03:59+00:00",
+        "sha256": "e142726c118ce44e7be167841c166420d5e6b0e5b1b4f9b97712fdcd7077072c"
+      },
+      "cey20_landpoints_month05.nc": {
+        "bytes": 1468902118,
+        "mtime_utc": "2026-11-01T10:05:24+00:00",
+        "sha256": "7d9c70c1882d8b635f57bd0812b53bd8eedc0191aef4ce300756033369a94ce0"
+      },
+      "cey20_landpoints_month06.nc": {
+        "bytes": 1413481353,
+        "mtime_utc": "2026-11-01T10:06:45+00:00",
+        "sha256": "aa7292f79cac4e6f1ab308934452f47203b637be6f737f775cd66e8d9c5b2e9b"
+      },
+      "cey20_landpoints_month07.nc": {
+        "bytes": 1446639517,
+        "mtime_utc": "2026-11-01T10:08:14+00:00",
+        "sha256": "f3ea6b08663d46917f16a32d0a4b083c10a1d68e6489c98c38fbe53e436d6246"
+      },
+      "cey20_landpoints_month08.nc": {
+        "bytes": 1447508086,
+        "mtime_utc": "2026-11-01T10:09:42+00:00",
+        "sha256": "08a2b0e0435b5cdfdb3e34b934a5b12292ce9a3711fb4e0870ad0a2fe6747765"
+      },
+      "cey20_landpoints_month09.nc": {
+        "bytes": 1417202516,
+        "mtime_utc": "2026-11-01T10:11:06+00:00",
+        "sha256": "eeb0a150bdd75ebee1d79bad450eff31d090677f9e217374e0a748a6d3bba913"
+      },
+      "cey20_landpoints_month10.nc": {
+        "bytes": 1463778677,
+        "mtime_utc": "2026-11-01T10:12:33+00:00",
+        "sha256": "cb0ce430b052f19782b6ec0527fbe354b9b3980d17942117c38536cbe863e5fd"
+      },
+      "cey20_landpoints_month11.nc": {
+        "bytes": 1403742127,
+        "mtime_utc": "2026-11-01T10:13:56+00:00",
+        "sha256": "2db341bb17e5dafed8e1534f53b05a1eab9d66a064ad7a9700d5c345a20a5936"
+      },
+      "cey20_landpoints_month12.nc": {
+        "bytes": 1452111766,
+        "mtime_utc": "2026-11-01T10:15:25+00:00",
+        "sha256": "3ab8ea984f0922576f1b12143d003ee4b8c5d19e0b94eb0edb96776fd8d54156"
+      }
+    },
+    "variables_used": [
+      "time",
+      "latitude",
+      "longitude",
+      "temperature_c",
+      "dewpoint_c",
+      "surface_pressure_pa",
+      "selected_source_year"
+    ],
+    "coordinates_sha256": "880e687fff269021c85e37fd919cb97a76d80d2181441f45f8c26e3adac9f800",
+    "note": "Recorded before any amendment V2 outcome; bytes and metadata only."
+  },
+  "product_version": "v2-month-interface-smoothing",
+  "product_generating_commit": "388cfdb4d90348750df65035cd5e94c2d2cb103a",
+  "files": [
+    "gates.json",
+    "targets_annual.csv",
+    "targets_monthly.csv",
+    "d1_joint.csv",
+    "d2_spells.csv",
+    "d3_humid_temperature.csv",
+    "d4_boundaries.csv",
+    "d5_conventions.csv",
+    "a1_duration.csv",
+    "a1_curves.csv",
+    "a2_heat_pump.csv",
+    "a3_tow.csv",
+    "a4_saturation_zero_crossing.csv",
+    "regional_envelopes_v2.csv",
+    "summary.json"
+  ]
+}

@@ -8,8 +8,9 @@ This repository is the study package for the preprint
 It contains the analysis code, the product code for month selection and month-interface smoothing, the protocol,
 specifications, freeze records, pins, amendments and all result tables of the evaluation.
 
-> **Status: in preparation.** The evaluation of the released product version 2 (amendment V2,
-> `study/12-amendment-V2.md`) has not been run yet. Its code and results will be added before the first release.
+> **Status: in preparation, not yet released.** The evaluation of the released product version 2 (amendment V2) was
+> run on 2026-11-09; its code, results and figures are included (`study/12-results-v2/`). Independent review of the
+> results and manuscript is pending.
 
 ## What CEY20 is
 
@@ -27,7 +28,7 @@ screening on the global 0.25° ERA5-Land land grid.
 |---|---|
 | `code/backend/scripts/build_global_cey20_landpoint_dataset.py` | Month selection: features, weights, scales, score (product builder at commit `00efaf6`, the version evaluated) |
 | `code/backend/scripts/smooth_cey20_month_interfaces.py` | Month-interface smoothing of product version 2 (commit `388cfdb4`, the generating commit of the released v2 files) |
-| `code/backend/scripts/research/` | Study scripts: S3 targets, hourly diagnostics D1–D5, D4s, FS comparison, screening applications, California comparison |
+| `code/backend/scripts/research/` | Study scripts: S3 targets, hourly diagnostics D1–D5, D4s, FS comparison, screening applications, California comparison, paired v1/v2 evaluation (`auth003_v2_eval.py`) |
 | `code/backend/tests/` | Unit tests of the study scripts |
 | `code/SOURCES.json` | Source commit, path and SHA-256 of every code file |
 | `study/` | Protocol, specifications, freeze records, pins, amendments, method description and all result tables |
@@ -59,7 +60,11 @@ cd code/backend && python -m pytest -q tests
 - **Amendments:**
   - `study/08-amendment-A*.md`: California comparison;
   - `study/12-amendment-V2.md`: evaluation of the released version 2. This amendment is outcome-informed and
-    discloses the evidence available when it was fixed.
+    discloses the evidence available when it was fixed. `study/12-amendment-V2.1-clarification.md` records three
+    implementation clarifications approved before any version-2 outcome.
+- **Version-2 results:** `study/12-results-v2/README.md` (gates, paired v1/v2 tables). The 31.5 MB duration-curve
+  file `a1_curves.csv` is not included; its SHA-256 is recorded there.
+- **Figures:** `study/06-figures/` with the scripts that produce them from the result tables.
 - **Negative results** are reported unchanged. The tolerances were not changed after outcomes were known.
 - **Reviews.** Specifications and results were reviewed for method and code. The review records named in the result
   READMEs, and the Codex reviews of amendment V2, are included.
