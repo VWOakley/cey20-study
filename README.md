@@ -34,6 +34,9 @@ screening on the global 0.25° ERA5-Land land grid.
 | `study/` | Protocol, specifications, freeze records, pins, amendments, method description and all result tables |
 | `verify_package.py` | Checks that the packaged code equals the code pinned before each run |
 
+In the run manifests (`study/*/manifest.json`), absolute local paths of the author's workspace are replaced by
+`<workspace>/`; all other fields, including hashes, are unchanged.
+
 The code files are byte-identical (LF line endings) to the commits that were pinned before each run, so that the
 pins in `study/*pin*.json` can be checked. They therefore contain the original default paths of the author's
 machine. All paths can be overridden on the command line.

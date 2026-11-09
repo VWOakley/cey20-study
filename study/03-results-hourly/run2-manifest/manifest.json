@@ -3,7 +3,7 @@
   "started_utc": "2026-10-31T19:53:21+00:00",
   "finished_utc": "2026-10-31T23:08:35+00:00",
   "code_sha": null,
-  "freeze": "C:\\Users\\okley\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-climate\\work\\climetry-auth003-tmy\\docs\\research\\auth003-tmy\\03-freeze.json",
+  "freeze": "<workspace>/climetry-auth003-tmy/docs/research/auth003-tmy/03-freeze.json",
   "freeze_code_sha": "00efaf6a4626a727ae0332b8ce8f84a4a9301753",
   "freeze_input_inventory_sha256": "75cfecfce8f28a8a9550ae31806df3932185bc1b49ca26fa7aba6b5e4b9f2670",
   "points": [
@@ -64,9 +64,9 @@
       "index": 199071
     }
   ],
-  "input_hashes": "C:\\Users\\okley\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-climate\\work\\climetry-auth003-tmy\\docs\\research\\auth003-tmy\\03-freeze-input-sha256.json",
-  "pin": "C:\\Users\\okley\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-climate\\work\\climetry-auth003-tmy\\docs\\research\\auth003-tmy\\03-s3-hourly-pin.json",
-  "s3_monthly": "C:\\Users\\okley\\Documents\\Codex\\2026-06-13\\files-mentioned-by-the-user-climate\\work\\climetry-auth003-tmy\\docs\\research\\auth003-tmy\\03-results\\targets_monthly.csv",
+  "input_hashes": "<workspace>/climetry-auth003-tmy/docs/research/auth003-tmy/03-freeze-input-sha256.json",
+  "pin": "<workspace>/climetry-auth003-tmy/docs/research/auth003-tmy/03-s3-hourly-pin.json",
+  "s3_monthly": "<workspace>/climetry-auth003-tmy/docs/research/auth003-tmy/03-results/targets_monthly.csv",
   "files": [
     "d1_joint.csv",
     "d2_spells.csv",
