@@ -1,0 +1,36 @@
+{
+  "title": "CEY20 study package: design and evaluation of a moisture-weighted typical-month selection",
+  "upload_type": "software",
+  "description": "<p>Study package for the preprint <em>A moisture-weighted typical-month selection for environmental exposure screening: design and evaluation of CEY20 at 14 locations</em> (Okley, 2026; Technical Research / Preprint, not peer reviewed).</p><p>Contents: the month-selection code of CEY20 and the month-interface smoothing of product version 2, all study scripts with unit tests, the protocol, specifications, freeze records, code pins, amendments, review records, all result tables and figures of the evaluation at 14 locations (ERA5-Land, 2006–2025). <code>verify_package.py</code> checks that the packaged code is byte-identical to the code pinned before each run.</p><p>Licences: code under MIT; documents, result tables and figures under CC BY 4.0 (see <code>LICENSE-DATA</code>). Contains modified Copernicus Climate Change Service information (2026). Neither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.</p><p>AI coding and writing assistants (Anthropic Claude, OpenAI Codex, GitHub Copilot) were used under the author's direction; the author reviewed the content and takes full responsibility for it.</p>",
+  "creators": [
+    {
+      "name": "Okley, Wadim",
+      "affiliation": "Independent researcher",
+      "orcid": "0009-0000-2257-9728"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "ERA5-Land",
+    "typical meteorological year",
+    "reference year",
+    "humidity",
+    "moisture exposure",
+    "time of wetness",
+    "CEY20"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.24073751",
+      "relation": "references",
+      "resource_type": "publication"
+    },
+    {
+      "identifier": "10.5281/zenodo.24016356",
+      "relation": "references",
+      "resource_type": "dataset"
+    }
+  ],
+  "notes": "Documents, result tables and figures in this package are licensed CC BY 4.0; code is licensed MIT."
+}
