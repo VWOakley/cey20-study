@@ -49,7 +49,9 @@ cd code/backend && python -m pytest -q tests
 - **Tests.** Two CLI tests need the product's city builder for point resolution and are skipped here. Point
   resolution was done once and is frozen in `study/03-freeze.json`.
 - **Rerunning the analyses.** This needs the ERA5-Land hourly inputs for the 14 points, 2006–2025 (T, Td, surface
-  pressure). [Pending: point extract with checksums under `data/`.] Each runner documents its command line in its
+  pressure), available from the Copernicus Climate Data Store. The analyses read monthly land-point files derived
+  from these data; their SHA-256 checksums are in `study/03-freeze-input-sha256.json` (they document the files used;
+  a rebuild from a new download is not expected to be byte-identical). Each runner documents its command line in its
   module docstring and in the corresponding `study/` README.
 
 ## Study record
