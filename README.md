@@ -3,7 +3,8 @@
 This repository is the study package for the preprint
 
 > Okley, W. (2026): *A moisture-weighted typical-month selection for environmental exposure screening: design and
-> evaluation of CEY20 at 14 locations.* Technical Research / Preprint – Not Peer Reviewed. EarthArXiv. [DOI pending]
+> evaluation of CEY20 at 14 locations.* Technical Research / Preprint – Not Peer Reviewed. EarthArXiv.
+> https://doi.org/10.31223/X5KV56
 
 Archived on Zenodo: version 1.0.0, https://doi.org/10.5281/zenodo.24091411 (all versions:
 https://doi.org/10.5281/zenodo.24091410).

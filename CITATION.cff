@@ -15,3 +15,15 @@ keywords:
   - reference year
   - humidity
   - exposure
+references:
+  - type: article
+    title: "A moisture-weighted typical-month selection for environmental exposure screening: design and evaluation of CEY20 at 14 locations"
+    authors:
+      - family-names: Okley
+        given-names: Wadim
+        orcid: "https://orcid.org/0009-0000-2257-9728"
+    year: 2026
+    publisher:
+      name: EarthArXiv
+    doi: 10.31223/X5KV56
+    notes: "Preprint, not peer reviewed."

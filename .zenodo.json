@@ -22,6 +22,11 @@
   ],
   "related_identifiers": [
     {
+      "identifier": "10.31223/X5KV56",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
+    },
+    {
       "identifier": "10.5281/zenodo.24073751",
       "relation": "references",
       "resource_type": "publication"
