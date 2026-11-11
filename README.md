@@ -90,6 +90,7 @@ cd code/backend && python -m pytest -q tests
 - Data descriptor: Okley (2026), https://doi.org/10.5281/zenodo.24073751
 - California dataset: https://doi.org/10.5281/zenodo.24016356
 - California tools: https://github.com/VWOakley/cey20-california, https://doi.org/10.5281/zenodo.24073640
+- Method description and product context (Climetry): https://www.getclimetry.com/methodology#published-method
 
 ## Use of AI tools
 
